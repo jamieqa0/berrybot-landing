@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="Arial, sans-serif">
+  <!-- Panel border + background -->
+  <rect x="2" y="2" width="396" height="496" rx="12" fill="#F0F8FF" stroke="#333" stroke-width="4"/>
+
+  <!-- === BACKGROUND (kitchen sink / blue water theme) === -->
+  <rect x="4" y="4" width="392" height="388" rx="10" fill="#E8F4FF"/>
+  <!-- Bubble bg deco -->
+  <circle cx="50" cy="60" r="8" fill="#B0D8FF" opacity="0.4"/>
+  <circle cx="340" cy="40" r="5" fill="#B0D8FF" opacity="0.4"/>
+  <circle cx="370" cy="100" r="7" fill="#B0D8FF" opacity="0.35"/>
+  <circle cx="30" cy="180" r="5" fill="#B0D8FF" opacity="0.3"/>
+  <circle cx="365" cy="200" r="8" fill="#B0D8FF" opacity="0.3"/>
+  <!-- Floor -->
+  <rect x="4" y="388" width="392" height="110" fill="#C8845A"/>
+  <rect x="4" y="388" width="392" height="16" fill="#A06040"/>
+
+  <!-- === SINK === -->
+  <!-- Sink counter -->
+  <rect x="60" y="330" width="280" height="60" rx="6" fill="#D0C0A8" stroke="#999" stroke-width="2.5"/>
+  <!-- Sink basin -->
+  <rect x="100" y="295" width="200" height="100" rx="10" fill="#A8C8D8" stroke="#7AA0B5" stroke-width="3"/>
+  <!-- Sink interior -->
+  <rect x="108" y="303" width="184" height="84" rx="6" fill="#C8E0EC"/>
+  <!-- Water in sink -->
+  <rect x="108" y="340" width="184" height="47" rx="4" fill="#88C0D8" opacity="0.7"/>
+  <!-- Water ripple -->
+  <ellipse cx="200" cy="352" rx="50" ry="8" fill="none" stroke="#5AA0BE" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="200" cy="352" rx="25" ry="4" fill="none" stroke="#5AA0BE" stroke-width="1.5" opacity="0.5"/>
+  <!-- Drain -->
+  <ellipse cx="200" cy="378" rx="10" ry="4" fill="#7A9AA8" stroke="#5A808E" stroke-width="1.5"/>
+
+  <!-- Faucet -->
+  <rect x="185" y="245" width="30" height="12" rx="5" fill="#CCC" stroke="#999" stroke-width="2"/>
+  <rect x="192" y="232" width="16" height="28" rx="4" fill="#CCC" stroke="#999" stroke-width="2"/>
+  <!-- Faucet handle -->
+  <rect x="210" y="228" width="22" height="8" rx="4" fill="#AAA" stroke="#888" stroke-width="2"/>
+  <!-- Water stream -->
+  <path d="M 196,257 Q 195,278 196,295" fill="none" stroke="#88C8E8" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 202,257 Q 203,278 202,295" fill="none" stroke="#88C8E8" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Water splashes around strawberry -->
+  <path d="M 172,300 Q 160,285 165,278" fill="none" stroke="#88C8E8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 228,300 Q 240,285 235,278" fill="none" stroke="#88C8E8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="158" cy="275" r="4" fill="#88C8E8" opacity="0.8"/>
+  <circle cx="242" cy="274" r="3" fill="#88C8E8" opacity="0.8"/>
+  <circle cx="150" cy="290" r="3" fill="#88C8E8" opacity="0.7"/>
+  <circle cx="248" cy="288" r="4" fill="#88C8E8" opacity="0.7"/>
+
+  <!-- Strawberry being washed (held by hands under faucet) -->
+  <ellipse cx="200" cy="298" rx="22" ry="18" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+  <path d="M 200,280 C 193,272 187,274 190,280 C 191,272 200,268 200,275 C 200,268 209,272 210,280 C 213,274 207,272 200,280" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Seeds on washed strawberry -->
+  <ellipse cx="190" cy="295" rx="4" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-10,190,295)"/>
+  <ellipse cx="202" cy="290" rx="4" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+  <ellipse cx="213" cy="297" rx="4" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(10,213,297)"/>
+
+  <!-- === BERRYBOT === -->
+  <!-- Legs -->
+  <rect x="142" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
+  <rect x="168" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
+  <!-- Feet -->
+  <ellipse cx="151" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
+  <ellipse cx="177" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
+
+  <!-- Body -->
+  <path d="M 164,188 C 112,193 91,233 93,278 C 95,323 128,364 164,376 C 200,364 233,323 235,278 C 237,233 216,193 164,188" fill="#FF3355" stroke="#CC1133" stroke-width="3.5"/>
+
+  <!-- Seeds -->
+  <ellipse cx="136" cy="240" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,136,240)"/>
+  <ellipse cx="162" cy="226" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,162,226)"/>
+  <ellipse cx="190" cy="234" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,190,234)"/>
+  <ellipse cx="128" cy="272" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,128,272)"/>
+  <ellipse cx="203" cy="268" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,203,268)"/>
+
+  <!-- Left arm (down into sink) -->
+  <path d="M 98,278 L 72,310" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="65" cy="316" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+  <!-- Right arm (down into sink) -->
+  <path d="M 230,278 L 256,310" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="263" cy="316" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+
+  <!-- Leaf crown -->
+  <path d="M 128,195 C 126,166 140,151 150,167 C 150,148 161,137 169,153 C 174,138 185,147 180,165 C 189,150 202,159 197,178 C 206,167 216,177 208,194 L 164,197 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="2.5"/>
+  <path d="M 149,176 C 151,161 160,150 165,156" fill="none" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Face bg -->
+  <ellipse cx="164" cy="222" rx="38" ry="30" fill="#FFD0D8"/>
+
+  <!-- Eyes (hearts - lovingly washing) -->
+  <!-- Left heart eye -->
+  <path d="M 143,212 C 143,207 148,205 150,209 C 152,205 157,207 157,212 C 157,217 150,223 150,223 C 150,223 143,217 143,212 Z" fill="#FF3355"/>
+  <!-- Right heart eye -->
+  <path d="M 171,212 C 171,207 176,205 178,209 C 180,205 185,207 185,212 C 185,217 178,223 178,223 C 178,223 171,217 171,212 Z" fill="#FF3355"/>
+
+  <!-- Mouth (happy) -->
+  <path d="M 151,232 Q 164,244 177,232" fill="none" stroke="#CC1133" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="135" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
+  <ellipse cx="193" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
+
+  <!-- Water droplets on BerryBot -->
+  <circle cx="112" cy="250" r="4" fill="#88C8E8" opacity="0.7"/>
+  <circle cx="218" cy="248" r="3" fill="#88C8E8" opacity="0.7"/>
+  <circle cx="105" cy="300" r="3" fill="#88C8E8" opacity="0.6"/>
+
+  <!-- === SPEECH BUBBLE === -->
+  <path d="M 12,52 Q 185,52 185,100 Q 185,148 120,148 Q 108,148 96,160 L 90,148 Q 12,148 12,100 Z" fill="white" stroke="#333" stroke-width="3"/>
+  <text x="98" y="90" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">먼지야 안녕~</text>
+  <text x="98" y="114" text-anchor="middle" fill="#3399CC" font-size="13" font-weight="bold">쏴아아아~ 💧</text>
+
+  <!-- Panel number badge -->
+  <circle cx="28" cy="28" r="20" fill="#FF3355" stroke="#CC1133" stroke-width="3"/>
+  <text x="28" y="34" text-anchor="middle" fill="white" font-size="15" font-weight="bold">2</text>
+
+  <!-- Sound effects -->
+  <text x="300" y="165" font-size="18" fill="#3399CC" opacity="0.7">💧</text>
+  <text x="335" y="200" font-size="14" fill="#3399CC" opacity="0.6">💧</text>
+  <text x="52" y="165" font-size="14" fill="#3399CC" opacity="0.6">💧</text>
+
+  <!-- === BOTTOM TITLE === -->
+  <line x1="10" y1="420" x2="390" y2="420" stroke="#3399CC" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <text x="200" y="455" text-anchor="middle" fill="#1A7AAA" font-size="20" font-weight="bold">깨끗이 씻어줄게! 💧</text>
+  <text x="200" y="480" text-anchor="middle" fill="#999" font-size="12">딸기를 깨끗이 세척하는 장면</text>
+</svg>

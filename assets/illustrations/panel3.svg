@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="Arial, sans-serif">
+  <!-- Panel border + background -->
+  <rect x="2" y="2" width="396" height="496" rx="12" fill="#FFFBF0" stroke="#333" stroke-width="4"/>
+
+  <!-- === BACKGROUND (warm work table) === -->
+  <rect x="4" y="4" width="392" height="388" rx="10" fill="#FFFAE8"/>
+  <!-- Light rays from inspection lamp -->
+  <path d="M 340,50 L 290,160 L 310,160 Z" fill="#FFE87A" opacity="0.2"/>
+  <path d="M 340,50 L 310,160 L 330,160 Z" fill="#FFE87A" opacity="0.15"/>
+  <!-- Inspection lamp -->
+  <rect x="315" y="28" width="12" height="40" rx="4" fill="#888" stroke="#666" stroke-width="2"/>
+  <path d="M 308,68 L 370,68 L 358,105 L 320,105 Z" fill="#FFD700" stroke="#CCA800" stroke-width="2"/>
+  <ellipse cx="339" cy="105" rx="20" ry="6" fill="#FFE87A" opacity="0.7"/>
+  <!-- Floor -->
+  <rect x="4" y="388" width="392" height="110" fill="#C8845A"/>
+  <rect x="4" y="388" width="392" height="16" fill="#A06040"/>
+
+  <!-- === WORK TABLE === -->
+  <rect x="40" y="340" width="320" height="55" rx="8" fill="#D4A86A" stroke="#9A7030" stroke-width="3"/>
+  <rect x="40" y="340" width="320" height="14" rx="4" fill="#B88848"/>
+  <!-- Table legs -->
+  <rect x="65" y="392" width="14" height="40" rx="4" fill="#9A7030"/>
+  <rect x="321" y="392" width="14" height="40" rx="4" fill="#9A7030"/>
+
+  <!-- Strawberries lined up on table -->
+  <!-- Strawberry 1 (left) -->
+  <ellipse cx="82" cy="337" rx="16" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+  <path d="M 82,324 C 76,317 71,318 74,324 C 75,317 82,313 82,319 C 82,313 89,317 90,324 C 93,318 87,317 82,324" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="78" cy="334" rx="3" ry="2" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+  <ellipse cx="86" cy="330" rx="3" ry="2" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+
+  <!-- Strawberry 2 -->
+  <ellipse cx="115" cy="337" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
+  <path d="M 115,324 C 109,317 104,318 107,324 C 108,317 115,313 115,319 C 115,313 122,317 123,124 C 126,318 120,317 115,324" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+
+  <!-- Strawberry 3 (being examined, held up by magnifying glass area) -->
+  <!-- Checkmark on it - inspected ok -->
+  <ellipse cx="148" cy="335" rx="16" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+  <path d="M 148,322 C 142,315 137,316 140,322 C 141,315 148,311 148,317 C 148,311 155,315 156,322 C 159,316 153,315 148,322" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M 140,334 L 146,340 L 157,326" fill="none" stroke="#00CC44" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small OK badges -->
+  <circle cx="82" cy="316" r="7" fill="#00CC44" stroke="white" stroke-width="1.5"/>
+  <text x="82" y="320" text-anchor="middle" fill="white" font-size="8" font-weight="bold">✓</text>
+  <circle cx="115" cy="316" r="7" fill="#00CC44" stroke="white" stroke-width="1.5"/>
+  <text x="115" y="320" text-anchor="middle" fill="white" font-size="8" font-weight="bold">✓</text>
+
+  <!-- === MAGNIFYING GLASS (held by right arm) === -->
+  <!-- Handle -->
+  <rect x="248" y="268" width="12" height="55" rx="5" fill="#A06030" stroke="#7A4020" stroke-width="2" transform="rotate(35, 254, 295)"/>
+  <!-- Lens ring -->
+  <circle cx="228" cy="258" r="32" fill="none" stroke="#888" stroke-width="6"/>
+  <circle cx="228" cy="258" r="29" fill="#E8F4FF" opacity="0.6" stroke="#AAA" stroke-width="2"/>
+  <!-- Lens reflection -->
+  <path d="M 212,240 Q 218,235 228,237" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- Strawberry seen in magnifying glass (enlarged) -->
+  <ellipse cx="228" cy="262" rx="18" ry="15" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+  <path d="M 228,247 C 222,240 217,241 220,247 C 221,240 228,237 228,242 C 228,237 235,240 236,247 C 239,241 233,240 228,247" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="222" cy="260" rx="4" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+  <ellipse cx="232" cy="256" rx="4" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(15,232,256)"/>
+  <ellipse cx="236" cy="267" rx="3.5" ry="2.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-10,236,267)"/>
+
+  <!-- === BERRYBOT === -->
+  <!-- Legs -->
+  <rect x="142" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
+  <rect x="168" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
+  <!-- Feet -->
+  <ellipse cx="151" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
+  <ellipse cx="177" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
+
+  <!-- Body -->
+  <path d="M 164,188 C 112,193 91,233 93,278 C 95,323 128,364 164,376 C 200,364 233,323 235,278 C 237,233 216,193 164,188" fill="#FF3355" stroke="#CC1133" stroke-width="3.5"/>
+
+  <!-- Seeds -->
+  <ellipse cx="136" cy="240" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,136,240)"/>
+  <ellipse cx="162" cy="226" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,162,226)"/>
+  <ellipse cx="190" cy="234" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,190,234)"/>
+  <ellipse cx="128" cy="272" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,128,272)"/>
+  <ellipse cx="203" cy="268" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,203,268)"/>
+
+  <!-- Left arm (resting on table) -->
+  <path d="M 98,290 L 68,315" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="61" cy="320" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+  <!-- Right arm (holding magnifying glass up) -->
+  <path d="M 230,270 L 240,255" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="244" cy="249" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+
+  <!-- Leaf crown -->
+  <path d="M 128,195 C 126,166 140,151 150,167 C 150,148 161,137 169,153 C 174,138 185,147 180,165 C 189,150 202,159 197,178 C 206,167 216,177 208,194 L 164,197 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="2.5"/>
+  <path d="M 149,176 C 151,161 160,150 165,156" fill="none" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Face bg -->
+  <ellipse cx="164" cy="222" rx="38" ry="30" fill="#FFD0D8"/>
+
+  <!-- Eyes (concentrating: one normal, one squinted) -->
+  <!-- Left eye (normal) -->
+  <circle cx="150" cy="216" r="11" fill="white" stroke="#333" stroke-width="2.5"/>
+  <circle cx="152" cy="218" r="6" fill="#333"/>
+  <circle cx="154" cy="215" r="2.5" fill="white"/>
+  <!-- Right eye (squinted - examining) -->
+  <path d="M 168,216 Q 178,210 188,216" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 169,218 Q 178,222 187,218" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Determined mouth -->
+  <path d="M 154,232 Q 164,237 174,232" fill="none" stroke="#CC1133" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="135" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
+  <ellipse cx="193" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
+
+  <!-- === SPEECH BUBBLE === -->
+  <path d="M 12,52 Q 200,52 200,100 Q 200,148 128,148 Q 116,148 106,160 L 100,148 Q 12,148 12,100 Z" fill="white" stroke="#333" stroke-width="3"/>
+  <text x="106" y="90" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">흠... 완벽해!</text>
+  <text x="106" y="114" text-anchor="middle" fill="#FF8800" font-size="13" font-weight="bold">⭐ 검수 완료 ⭐</text>
+
+  <!-- Panel number badge -->
+  <circle cx="28" cy="28" r="20" fill="#FF3355" stroke="#CC1133" stroke-width="3"/>
+  <text x="28" y="34" text-anchor="middle" fill="white" font-size="15" font-weight="bold">3</text>
+
+  <!-- Sparkle effects near magnifying glass -->
+  <text x="258" y="228" font-size="16" fill="#FFB800">✨</text>
+  <text x="275" y="258" font-size="12" fill="#FFB800">⭐</text>
+  <text x="355" y="130" font-size="18" fill="#FFB800" opacity="0.6">✨</text>
+
+  <!-- === BOTTOM TITLE === -->
+  <line x1="10" y1="420" x2="390" y2="420" stroke="#FF8800" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <text x="200" y="455" text-anchor="middle" fill="#CC6600" font-size="20" font-weight="bold">예쁘게 다듬어볼게! ⭐</text>
+  <text x="200" y="480" text-anchor="middle" fill="#999" font-size="12">돋보기로 꼼꼼히 검수하는 장면</text>
+</svg>
