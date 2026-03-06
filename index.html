@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>베리봇 — 딸기 손질 구독 서비스</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">🍓 베리봇</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#comic">베리봇 소개</a></li>
+        <li><a href="#plans">구독 플랜</a></li>
+        <li><a href="#features">특장점</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#plans" class="btn btn-primary nav-cta">구독 시작하기</a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">☰</button>
+    </div>
+  </nav>
 
   <!-- ===== HERO ===== -->
   <section id="hero">
@@ -14,10 +31,11 @@
     <div class="hero-inner">
       <div class="hero-badge">🤖 딸기 손질 전용 로봇</div>
       <h1 class="hero-title">
-        로봇이 손질한 딸기,<br />
-        <span class="accent">베리봇</span>이 배달해요
+        베리봇이 세척·손질한 딸기,<br />
+        바로 <span class="accent">먹을 수 있어요</span>
       </h1>
-      <p class="hero-sub">딸기 손질 로봇 베리봇이 세척부터 꼭지 제거까지 — 바로 먹을 수 있는 딸기를 구독하세요</p>
+      <p class="hero-sub">세척부터 꼭지 제거까지, 베리봇이 손질해드려요 — 바로 먹을 수 있는 딸기를 손쉽게 즐기세요</p>
+      <p class="hero-urgency">⏰ 지금 구독하면 첫 달 50% 할인 · 언제든 해지 가능</p>
       <div class="hero-cta-group">
         <a href="#plans" class="btn btn-primary">구독 시작하기</a>
         <a href="#comic" class="btn btn-ghost">어떻게 만드나요?</a>
@@ -32,8 +50,8 @@
   <section id="comic">
     <div class="section-header">
       <span class="section-tag">베리봇 로봇의 하루</span>
-      <h2>로봇이 직접 손질하는 딸기 한 알의 여정</h2>
-      <p>딸기 손질 로봇 베리봇이 딸기를 받아 완성하기까지, 4컷으로 만나보세요</p>
+      <h2>집에서 베리봇이 손질하는 베리 한 알의 여정</h2>
+      <p>딸기·블루베리·라즈베리까지, 베리봇에 넣으면 손질 완료 — 4컷으로 만나보세요</p>
     </div>
     <div class="comic-grid">
       <div class="comic-panel" data-reveal>
@@ -61,47 +79,49 @@
     <div class="plans-grid">
 
       <div class="plan-card" data-reveal>
-        <div class="plan-icon">🌱</div>
-        <div class="plan-name">씨앗</div>
+        <div class="plan-icon">🍓</div>
+        <div class="plan-name">설향</div>
         <div class="plan-price">
           <span class="price-num">9,900</span><span class="price-unit">원 / 월</span>
         </div>
         <ul class="plan-features">
-          <li>딸기 500g / 월 1회</li>
-          <li>기본 세척</li>
-          <li>꼭지 제거</li>
+          <li>월 1회 · 최대 500g</li>
+          <li>딸기 세척 + 꼭지 제거</li>
+          <li>기본 손질 모드</li>
         </ul>
         <a href="#" class="btn btn-outline">시작하기</a>
       </div>
 
       <div class="plan-card plan-best" data-reveal>
         <div class="plan-badge">인기</div>
-        <div class="plan-icon">🍓</div>
-        <div class="plan-name">딸기</div>
+        <div class="plan-icon">🫐</div>
+        <div class="plan-name">매향</div>
         <div class="plan-price">
           <span class="price-num">19,900</span><span class="price-unit">원 / 월</span>
         </div>
+        <p class="plan-social-proof">월 1,200명 구독 중</p>
         <ul class="plan-features">
-          <li>딸기 1kg / 월 2회</li>
-          <li>세척 · 다듬기 · 꼭지 제거</li>
+          <li>월 2회 · 최대 1kg</li>
+          <li>딸기 + 블루베리 손질 지원</li>
+          <li>세척 · 다듬기 · 꼭지 제거 전 과정</li>
           <li>신선도 보증</li>
         </ul>
         <a href="#" class="btn btn-primary">시작하기</a>
       </div>
 
       <div class="plan-card" data-reveal>
-        <div class="plan-icon">👑</div>
-        <div class="plan-name">프리미엄</div>
+        <div class="plan-icon">🍒</div>
+        <div class="plan-name">죽향</div>
         <div class="plan-price">
           <span class="price-num">34,900</span><span class="price-unit">원 / 월</span>
         </div>
         <ul class="plan-features">
-          <li>딸기 2kg / 월 4회</li>
-          <li>전 과정 + 프리미엄 품종 선택</li>
-          <li>우선 배송</li>
-          <li>딸기쉐이크 제조 서비스</li>
+          <li>월 4회 · 최대 2kg</li>
+          <li>딸기 + 블루베리 + 라즈베리 + 체리</li>
+          <li>전 과정 + 우선 처리 예약</li>
+          <li>딸기쉐이크 파우치 제조 서비스</li>
         </ul>
-        <a href="#" class="btn btn-outline">시작하기</a>
+        <a href="#" class="btn btn-primary">시작하기</a>
       </div>
 
     </div>
@@ -112,28 +132,38 @@
   <section id="features">
     <div class="section-header">
       <span class="section-tag">왜 베리봇 로봇?</span>
-      <h2>로봇이 손질하니까 다릅니다</h2>
+      <h2>가정용 로봇이 손질하니까 다릅니다</h2>
     </div>
     <div class="features-grid">
       <div class="feature-card" data-reveal>
         <div class="feature-icon">🚿</div>
-        <h3>로봇의 완벽한 세척</h3>
-        <p>베리봇 로봇이 농약·이물질을 빠짐없이 제거, 안심하고 바로 드실 수 있어요</p>
+        <h3>3단 초음파 세척</h3>
+        <p>3단 초음파 세척으로 농약·이물질 99% 제거, 씻지 않고 바로 드실 수 있어요</p>
       </div>
       <div class="feature-card" data-reveal>
         <div class="feature-icon">✂️</div>
-        <h3>로봇이 꼭지 제거</h3>
-        <p>번거로운 꼭지 손질은 베리봇 로봇이 담당, 바로 먹는 딸기가 도착해요</p>
+        <h3>꼭지 완벽 제거</h3>
+        <p>AI가 꼭지 위치를 감지해 오차 1mm 이내로 깔끔하게 제거해드려요</p>
       </div>
       <div class="feature-card" data-reveal>
-        <div class="feature-icon">❄️</div>
-        <h3>신선도 보증</h3>
-        <p>로봇 손질 즉시 냉장 포장 배송, 딸기의 신선함을 그대로 유지해요</p>
+        <div class="feature-icon">🔍</div>
+        <h3>신선도 자동 식별</h3>
+        <p>AI 카메라가 과일의 숙도·당도·상태를 스캔해 최적의 손질 방식을 자동 설정해요</p>
       </div>
       <div class="feature-card" data-reveal>
-        <div class="feature-icon">📦</div>
-        <h3>정기 구독 배송</h3>
-        <p>매달 정해진 날, 로봇이 손질한 딸기가 문 앞에 자동으로 도착해요</p>
+        <div class="feature-icon">🍽️</div>
+        <h3>한입 크기 커팅</h3>
+        <p>딸기·베리를 먹기 좋은 한입 크기로 자동 커팅, 아이도 어른도 바로 즐길 수 있어요</p>
+      </div>
+      <div class="feature-card" data-reveal>
+        <div class="feature-icon">🍱</div>
+        <h3>먹다 남은 과일 처리</h3>
+        <p>먹다 남긴 과일을 다시 넣으면 깔끔하게 재손질·보관 용기 포장까지 처리해드려요</p>
+      </div>
+      <div class="feature-card" data-reveal>
+        <div class="feature-icon">🥤</div>
+        <h3>과일 쉐이크 모드</h3>
+        <p>손질한 베리를 바로 갈아 신선한 쉐이크로 만들어드려요. 매향·죽향 플랜에서 이용 가능해요</p>
       </div>
     </div>
   </section>
@@ -147,15 +177,6 @@
     <div class="faq-list">
       <div class="faq-item" data-reveal>
         <button class="faq-q" aria-expanded="false">
-          배송은 얼마나 걸리나요?
-          <span class="faq-arrow">▼</span>
-        </button>
-        <div class="faq-a">
-          <p>손질 완료 후 냉장 배송으로 전국 1~2일 이내 도착합니다. 프리미엄 플랜은 당일 우선 배송이 제공됩니다.</p>
-        </div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q" aria-expanded="false">
           언제든 해지할 수 있나요?
           <span class="faq-arrow">▼</span>
         </button>
@@ -165,20 +186,29 @@
       </div>
       <div class="faq-item" data-reveal>
         <button class="faq-q" aria-expanded="false">
-          딸기 품종을 선택할 수 있나요?
-          <span class="faq-arrow">▼</span>
-        </button>
-        <div class="faq-a">
-          <p>프리미엄 플랜에서 설향, 매향, 죽향 등 다양한 품종 중 선택하실 수 있습니다. 씨앗·딸기 플랜은 제철 품종으로 제공됩니다.</p>
-        </div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q" aria-expanded="false">
           딸기쉐이크 제조 서비스는 무엇인가요?
           <span class="faq-arrow">▼</span>
         </button>
         <div class="faq-a">
-          <p>프리미엄 플랜 구독 시, 베리봇이 딸기를 갈아 쉐이크 파우치로 만들어 함께 배송해드리는 서비스입니다. 보관이 쉽고 맛있어요!</p>
+          <p>프리미엄 플랜 구독 시, 베리봇이 딸기를 갈아 쉐이크 파우치로 만들어드리는 서비스입니다. 보관이 쉽고 맛있어요!</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-q" aria-expanded="false">
+          결제는 언제 되나요?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>구독 신청일 기준으로 매월 같은 날 자동 결제됩니다. 결제 3일 전 안내 문자를 발송해드립니다.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-q" aria-expanded="false">
+          구독 일시정지가 가능한가요?
+          <span class="faq-arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>네, 마이페이지에서 최대 2개월까지 배송을 일시정지할 수 있습니다. 여행·장기 부재 시 편리하게 이용하세요.</p>
         </div>
       </div>
     </div>
@@ -187,15 +217,24 @@
   <!-- ===== FOOTER ===== -->
   <footer id="footer">
     <div class="footer-logo">🍓 베리봇</div>
-    <p class="footer-tagline">딸기 손질 로봇이 만드는 신선한 구독</p>
+    <p class="footer-tagline">베리봇 — 딸기 손질 로봇 구독 서비스</p>
     <div class="footer-links">
       <a href="#">이용약관</a>
       <a href="#">개인정보처리방침</a>
       <a href="#">고객센터</a>
     </div>
+    <div class="footer-biz">
+      <p>상호: 주식회사 베리봇 &nbsp;|&nbsp; 대표: 김베리 &nbsp;|&nbsp; 사업자등록번호: 000-00-00000</p>
+      <p>주소: 서울특별시 강남구 테헤란로 123, 4층 &nbsp;|&nbsp; 통신판매업신고: 제2026-서울강남-0000호</p>
+      <p>고객센터: 1588-0000 (평일 09:00~18:00) &nbsp;|&nbsp; 이메일: berrybot@berrybot.kr</p>
+    </div>
     <p class="footer-copy">© 2026 BerryBot. All rights reserved.</p>
   </footer>
 
+  <!-- ===== FLOATING CTA ===== -->
+  <a href="#plans" class="floating-cta" id="floatingCta">구독 시작하기 →</a>
+
   <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,115 +1,150 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="Arial, sans-serif">
-  <!-- Panel border + background -->
-  <rect x="2" y="2" width="396" height="496" rx="12" fill="#FFF8F0" stroke="#333" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif">
+<defs>
+  <radialGradient id="p1-body" cx="36%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#FF7090"/>
+    <stop offset="55%" stop-color="#FF3355"/>
+    <stop offset="100%" stop-color="#BB0030"/>
+  </radialGradient>
+  <radialGradient id="p1-bg" cx="50%" cy="25%" r="85%">
+    <stop offset="0%" stop-color="#FFF9F0"/>
+    <stop offset="100%" stop-color="#FFE8D0"/>
+  </radialGradient>
+  <radialGradient id="p1-face" cx="38%" cy="32%" r="68%">
+    <stop offset="0%" stop-color="#FFE8EE"/>
+    <stop offset="100%" stop-color="#FFBCCC"/>
+  </radialGradient>
+  <linearGradient id="p1-leaf" x1="0" y1="0" x2="0.2" y2="1">
+    <stop offset="0%" stop-color="#76C442"/>
+    <stop offset="100%" stop-color="#2E7D32"/>
+  </linearGradient>
+  <linearGradient id="p1-basket" x1="0" y1="0" x2="0.1" y2="1">
+    <stop offset="0%" stop-color="#DDB870"/>
+    <stop offset="100%" stop-color="#9A6828"/>
+  </linearGradient>
+  <filter id="p1-drop" x="-25%" y="-15%" width="150%" height="145%">
+    <feDropShadow dx="3" dy="8" stdDeviation="9" flood-color="#AA002240"/>
+  </filter>
+  <filter id="p1-soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="1" dy="3" stdDeviation="5" flood-color="#00000020"/>
+  </filter>
+</defs>
 
-  <!-- === BACKGROUND === -->
-  <!-- Wall -->
-  <rect x="4" y="4" width="392" height="388" rx="10" fill="#FFF0DC"/>
-  <!-- Wallpaper dots -->
-  <circle cx="60" cy="50" r="4" fill="#FFD0B0" opacity="0.5"/>
-  <circle cx="130" cy="35" r="3" fill="#FFD0B0" opacity="0.5"/>
-  <circle cx="310" cy="45" r="4" fill="#FFD0B0" opacity="0.5"/>
-  <circle cx="360" cy="70" r="3" fill="#FFD0B0" opacity="0.5"/>
-  <circle cx="80" cy="160" r="3" fill="#FFD0B0" opacity="0.4"/>
-  <circle cx="360" cy="155" r="4" fill="#FFD0B0" opacity="0.4"/>
-  <!-- Floor -->
-  <rect x="4" y="388" width="392" height="110" fill="#C8845A"/>
-  <rect x="4" y="388" width="392" height="16" fill="#A06040"/>
+<!-- Background -->
+<rect width="400" height="500" rx="20" fill="url(#p1-bg)"/>
+<!-- Dot pattern -->
+<circle cx="34" cy="45" r="5" fill="#FFD4A8" opacity="0.55"/>
+<circle cx="95" cy="25" r="3.5" fill="#FFD4A8" opacity="0.45"/>
+<circle cx="335" cy="38" r="4.5" fill="#FFD4A8" opacity="0.55"/>
+<circle cx="372" cy="78" r="3" fill="#FFD4A8" opacity="0.45"/>
+<circle cx="25" cy="145" r="3" fill="#FFD4A8" opacity="0.38"/>
+<circle cx="376" cy="122" r="4" fill="#FFD4A8" opacity="0.35"/>
+<circle cx="368" cy="195" r="3" fill="#FFD4A8" opacity="0.3"/>
+<circle cx="28" cy="215" r="2.5" fill="#FFD4A8" opacity="0.3"/>
+<!-- Border -->
+<rect x="3" y="3" width="394" height="494" rx="18" fill="none" stroke="#FFD0D8" stroke-width="2.5"/>
 
-  <!-- === BASKET === -->
-  <!-- Basket body -->
-  <path d="M 262,290 L 248,368 L 358,368 L 344,290 Z" fill="#C8955A" stroke="#7A5220" stroke-width="3"/>
-  <!-- Basket weave -->
-  <line x1="255" y1="310" x2="351" y2="310" stroke="#7A5220" stroke-width="1.5"/>
-  <line x1="251" y1="330" x2="355" y2="330" stroke="#7A5220" stroke-width="1.5"/>
-  <line x1="249" y1="350" x2="357" y2="350" stroke="#7A5220" stroke-width="1.5"/>
-  <line x1="281" y1="290" x2="274" y2="368" stroke="#7A5220" stroke-width="1.5"/>
-  <line x1="303" y1="290" x2="303" y2="368" stroke="#7A5220" stroke-width="1.5"/>
-  <line x1="325" y1="290" x2="332" y2="368" stroke="#7A5220" stroke-width="1.5"/>
-  <!-- Basket handle -->
-  <path d="M 266,290 Q 303,248 340,290" fill="none" stroke="#7A5220" stroke-width="5" stroke-linecap="round"/>
-  <!-- Strawberries in basket -->
-  <ellipse cx="278" cy="285" rx="17" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
-  <path d="M 278,272 C 272,264 267,266 270,272 C 271,264 278,260 278,266 C 278,260 285,264 286,272 C 289,266 284,264 278,272" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-  <ellipse cx="302" cy="277" rx="16" ry="12" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
-  <path d="M 302,265 C 296,258 291,260 294,265 C 295,258 302,255 302,261 C 302,255 309,258 311,265 C 313,260 308,258 302,265" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-  <ellipse cx="325" cy="283" rx="15" ry="12" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
-  <path d="M 325,271 C 319,264 315,265 317,271 C 318,264 325,261 325,267 C 325,261 332,264 333,271 C 335,265 331,264 325,271" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-  <ellipse cx="290" cy="294" rx="14" ry="11" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
-  <ellipse cx="314" cy="293" rx="14" ry="11" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+<!-- Ground shadow -->
+<ellipse cx="200" cy="405" rx="115" ry="14" fill="#D08060" opacity="0.16"/>
 
-  <!-- === BERRYBOT === -->
+<!-- === BASKET (right side) === -->
+<g filter="url(#p1-soft)">
+  <path d="M278,272 L266,348 L362,348 L350,272 Z" fill="url(#p1-basket)" stroke="#7A4818" stroke-width="2.5"/>
+  <line x1="270" y1="292" x2="358" y2="292" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
+  <line x1="268" y1="312" x2="360" y2="312" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
+  <line x1="267" y1="330" x2="361" y2="330" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
+  <line x1="298" y1="272" x2="292" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <line x1="314" y1="272" x2="314" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <line x1="330" y1="272" x2="336" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <path d="M282,272 Q314,237 346,272" fill="none" stroke="#7A4818" stroke-width="5" stroke-linecap="round"/>
+  <path d="M282,274 L346,274" stroke="#E8C070" stroke-width="1.8" opacity="0.6"/>
+  <!-- Strawberries -->
+  <ellipse cx="298" cy="266" rx="17" ry="14" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M298,252 C291,244 286,246 289,252 C290,244 298,241 298,247 C298,241 306,244 307,252 C310,246 305,244 298,252" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="293" cy="263" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(-15,293,263)"/>
+  <ellipse cx="303" cy="260" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="296" cy="270" rx="3" ry="2.1" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(12,296,270)"/>
+  <ellipse cx="326" cy="259" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M326,246 C319,238 314,240 317,246 C318,238 326,235 326,241 C326,235 334,238 335,246 C338,240 333,238 326,246" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="321" cy="256" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="332" cy="254" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(10,332,254)"/>
+  <ellipse cx="312" cy="278" rx="14" ry="11" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+</g>
+
+<!-- === BERRYBOT === -->
+<g filter="url(#p1-drop)">
   <!-- Legs -->
-  <rect x="142" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
-  <rect x="168" y="372" width="18" height="30" rx="8" fill="#888" stroke="#555" stroke-width="2.5"/>
+  <rect x="148" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="172" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
   <!-- Feet -->
-  <ellipse cx="151" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
-  <ellipse cx="177" cy="402" rx="14" ry="8" fill="#555" stroke="#333" stroke-width="2"/>
+  <ellipse cx="156" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="180" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
 
-  <!-- Body (strawberry shape) -->
-  <path d="M 164,188 C 112,193 91,233 93,278 C 95,323 128,364 164,376 C 200,364 233,323 235,278 C 237,233 216,193 164,188" fill="#FF3355" stroke="#CC1133" stroke-width="3.5"/>
+  <!-- Body -->
+  <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p1-body)" stroke="#AA0022" stroke-width="3"/>
 
   <!-- Apron -->
-  <path d="M 122,285 Q 164,275 206,285 Q 203,342 164,357 Q 125,342 122,285" fill="white" stroke="#EEE" stroke-width="1.5" opacity="0.88"/>
-  <!-- Apron strawberry deco -->
-  <ellipse cx="150" cy="308" rx="6" ry="8" fill="#FF3355" opacity="0.65"/>
-  <path d="M 150,300 C 147,296 144,297 146,301 C 146,296 150,294 150,298 C 150,294 154,296 154,301 C 156,297 153,296 150,300" fill="#4CAF50" opacity="0.8"/>
-  <ellipse cx="168" cy="300" rx="5" ry="7" fill="#FF3355" opacity="0.55"/>
-  <ellipse cx="183" cy="314" rx="5" ry="7" fill="#FF3355" opacity="0.55"/>
+  <path d="M122,268 Q166,258 210,268 Q207,326 166,340 Q125,326 122,268" fill="white" fill-opacity="0.82" stroke="#FFD8E0" stroke-width="1.5"/>
+  <ellipse cx="150" cy="290" rx="5.5" ry="7" fill="#FF3355" opacity="0.42"/>
+  <ellipse cx="167" cy="283" rx="4.5" ry="6" fill="#FF3355" opacity="0.32"/>
+  <ellipse cx="182" cy="296" rx="4.5" ry="6" fill="#FF3355" opacity="0.32"/>
 
   <!-- Seeds -->
-  <ellipse cx="136" cy="240" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,136,240)"/>
-  <ellipse cx="162" cy="226" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,162,226)"/>
-  <ellipse cx="190" cy="234" rx="6" ry="4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,190,234)"/>
-  <ellipse cx="128" cy="272" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,128,272)"/>
-  <ellipse cx="203" cy="268" rx="5" ry="3.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,203,268)"/>
+  <ellipse cx="132" cy="232" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,132,232)"/>
+  <ellipse cx="160" cy="218" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,160,218)"/>
+  <ellipse cx="192" cy="226" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,192,226)"/>
+  <ellipse cx="123" cy="268" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,123,268)"/>
+  <ellipse cx="208" cy="264" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,208,264)"/>
 
-  <!-- Left arm (reaching toward basket) -->
-  <path d="M 98,278 L 58,295" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
-  <circle cx="51" cy="298" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
-  <!-- Right arm (reaching toward basket) -->
-  <path d="M 230,274 L 262,264" stroke="#FF3355" stroke-width="16" stroke-linecap="round"/>
-  <circle cx="270" cy="261" r="12" fill="#FF3355" stroke="#CC1133" stroke-width="2.5"/>
+  <!-- Arms -->
+  <path d="M95,265 L56,248" stroke="url(#p1-body)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="47" cy="244" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
+  <path d="M237,261 L274,246" stroke="url(#p1-body)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="283" cy="242" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
 
   <!-- Leaf crown -->
-  <path d="M 128,195 C 126,166 140,151 150,167 C 150,148 161,137 169,153 C 174,138 185,147 180,165 C 189,150 202,159 197,178 C 206,167 216,177 208,194 L 164,197 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="2.5"/>
-  <path d="M 149,176 C 151,161 160,150 165,156" fill="none" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+  <path d="M126,185 C124,155 138,138 149,156 C149,134 160,121 168,139 C174,122 186,132 181,151 C191,135 204,145 198,164 C208,153 220,164 212,183 L166,186 Z" fill="url(#p1-leaf)" stroke="#1B5E20" stroke-width="2.2"/>
+  <path d="M147,163 C149,146 158,133 163,141" fill="none" stroke="#A5D6A7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M180,151 C182,138 188,132 190,139" fill="none" stroke="#A5D6A7" stroke-width="1.5" stroke-linecap="round"/>
 
-  <!-- Face bg -->
-  <ellipse cx="164" cy="222" rx="38" ry="30" fill="#FFD0D8"/>
+  <!-- Face -->
+  <ellipse cx="166" cy="214" rx="42" ry="33" fill="url(#p1-face)"/>
 
-  <!-- Eyes (excited big circles) -->
-  <circle cx="150" cy="216" r="11" fill="white" stroke="#333" stroke-width="2.5"/>
-  <circle cx="178" cy="216" r="11" fill="white" stroke="#333" stroke-width="2.5"/>
-  <circle cx="152" cy="218" r="6" fill="#333"/>
-  <circle cx="180" cy="218" r="6" fill="#333"/>
-  <circle cx="154" cy="215" r="2.5" fill="white"/>
-  <circle cx="182" cy="215" r="2.5" fill="white"/>
+  <!-- Eyes (excited big) -->
+  <circle cx="150" cy="208" r="13" fill="white" stroke="#222" stroke-width="2.2"/>
+  <circle cx="182" cy="208" r="13" fill="white" stroke="#222" stroke-width="2.2"/>
+  <circle cx="152" cy="210" r="7.5" fill="#1A1A1A"/>
+  <circle cx="184" cy="210" r="7.5" fill="#1A1A1A"/>
+  <circle cx="155" cy="206" r="3.5" fill="white"/>
+  <circle cx="187" cy="206" r="3.5" fill="white"/>
+  <circle cx="158" cy="212" r="1.8" fill="white" opacity="0.7"/>
+  <circle cx="190" cy="212" r="1.8" fill="white" opacity="0.7"/>
 
-  <!-- Mouth (big smile) -->
-  <path d="M 151,232 Q 164,244 177,232" fill="none" stroke="#CC1133" stroke-width="3" stroke-linecap="round"/>
+  <!-- Mouth -->
+  <path d="M152,226 Q166,241 180,226" fill="none" stroke="#AA0022" stroke-width="3.2" stroke-linecap="round"/>
 
   <!-- Cheeks -->
-  <ellipse cx="135" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
-  <ellipse cx="193" cy="228" rx="10" ry="6" fill="#FFB3C1" opacity="0.7"/>
+  <ellipse cx="130" cy="222" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
+  <ellipse cx="202" cy="222" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
+</g>
 
-  <!-- === SPEECH BUBBLE === -->
-  <path d="M 198,52 Q 375,52 375,100 Q 375,148 312,148 Q 299,148 289,160 L 284,148 Q 198,148 198,100 Z" fill="white" stroke="#333" stroke-width="3"/>
-  <text x="287" y="90" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">냠냠냠...</text>
-  <text x="287" y="114" text-anchor="middle" fill="#FF3355" font-size="13" font-weight="bold">오늘도 딸기다!</text>
+<!-- Speech bubble -->
+<path d="M16,38 Q16,18 36,18 L214,18 Q234,18 234,38 L234,88 Q234,108 214,108 L108,108 L96,124 L90,108 Q16,108 16,88 Z" fill="white" stroke="#FFD0D8" stroke-width="2.2" filter="url(#p1-soft)"/>
+<text x="125" y="56" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#333">냠냠냠...</text>
+<text x="125" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#FF3355">신선한 베리 넣어줘요!</text>
 
-  <!-- Sound effects -->
-  <text x="48" y="68" font-size="22" fill="#FFB800">✨</text>
-  <text x="352" y="52" font-size="16" fill="#FFB800">⭐</text>
-  <text x="52" y="148" font-size="14" fill="#FFB800">✨</text>
-  <text x="42" y="330" font-size="16" fill="#FF8800" opacity="0.6">♪</text>
+<!-- Sparkles -->
+<text x="248" y="54" font-size="18" opacity="0.8">✨</text>
+<text x="28" y="168" font-size="13" fill="#FFB800" opacity="0.6">⭐</text>
+<text x="348" y="152" font-size="16" fill="#FFB800" opacity="0.5">✨</text>
 
-  <!-- Panel number badge -->
-  <circle cx="28" cy="28" r="20" fill="#FF3355" stroke="#CC1133" stroke-width="3"/>
-  <text x="28" y="34" text-anchor="middle" fill="white" font-size="15" font-weight="bold">1</text>
+<!-- Panel number -->
+<circle cx="32" cy="32" r="20" fill="#FF3355" stroke="white" stroke-width="2.8" filter="url(#p1-soft)"/>
+<text x="32" y="38" text-anchor="middle" fill="white" font-size="15" font-weight="bold">1</text>
 
-  <!-- === BOTTOM TITLE === -->
-  <line x1="10" y1="420" x2="390" y2="420" stroke="#FF3355" stroke-width="2.5" stroke-dasharray="8,4"/>
-  <text x="200" y="455" text-anchor="middle" fill="#CC1133" font-size="20" font-weight="bold">배달 왔어요! 🍓</text>
-  <text x="200" y="480" text-anchor="middle" fill="#999" font-size="12">베리봇이 딸기 바구니를 받는다</text>
+<!-- Bottom caption -->
+<rect x="0" y="420" width="400" height="80" rx="0" fill="white" fill-opacity="0.55"/>
+<rect x="0" y="420" width="400" height="3" fill="#FF3355" fill-opacity="0.28"/>
+<text x="200" y="452" text-anchor="middle" fill="#CC1133" font-size="20" font-weight="bold">넣어볼까요! 🍓</text>
+<text x="200" y="474" text-anchor="middle" fill="#AA8090" font-size="12">베리봇 투입구에 딸기를 넣어요</text>
+<path d="M0,500 L0,490 Q0,500 20,500 L380,500 Q400,500 400,490 L400,500 Z" fill="white" fill-opacity="0.3"/>
 </svg>

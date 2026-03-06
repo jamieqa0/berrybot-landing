@@ -12,6 +12,24 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('[data-reveal]').forEach(el => revealObserver.observe(el));
 
+// ===== MOBILE NAV TOGGLE =====
+const navToggle = document.getElementById('navToggle');
+const navLinks  = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+});
+// Close nav when a link is clicked
+navLinks.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => navLinks.classList.remove('open'));
+});
+
+// ===== FLOATING CTA =====
+const floatingCta = document.getElementById('floatingCta');
+const heroSection  = document.getElementById('hero');
+new IntersectionObserver(([entry]) => {
+  floatingCta.classList.toggle('visible', !entry.isIntersecting);
+}, { threshold: 0 }).observe(heroSection);
+
 // ===== FAQ ACCORDION =====
 document.querySelectorAll('.faq-q').forEach(btn => {
   btn.addEventListener('click', () => {
