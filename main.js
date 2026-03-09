@@ -29,23 +29,3 @@ const heroSection  = document.getElementById('hero');
 new IntersectionObserver(([entry]) => {
   floatingCta.classList.toggle('visible', !entry.isIntersecting);
 }, { threshold: 0 }).observe(heroSection);
-
-// ===== FAQ ACCORDION =====
-document.querySelectorAll('.faq-q').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const item = btn.closest('.faq-item');
-    const isOpen = item.classList.contains('open');
-
-    // Close all
-    document.querySelectorAll('.faq-item.open').forEach(el => {
-      el.classList.remove('open');
-      el.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
-    });
-
-    // Toggle clicked
-    if (!isOpen) {
-      item.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  });
-});
