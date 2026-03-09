@@ -3,7 +3,8 @@
     "allow": [
       "Bash(wc -l /e/bodoc/bodoc-test/pages/*.py /e/bodoc/bodoc-test/utils/*.py)",
       "Bash(ls -lh /e/bodoc/bodoc-test/*.md)",
-      "Bash(gh pr:*)"
+      "Bash(gh pr:*)",
+      "Bash(git remote:*)"
     ]
   }
 }
