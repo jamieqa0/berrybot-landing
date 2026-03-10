@@ -45,21 +45,6 @@
 <!-- Ground shadow -->
 <ellipse cx="200" cy="405" rx="115" ry="14" fill="#6090B0" opacity="0.14"/>
 
-<!-- === SINK AREA === -->
-<!-- Counter top -->
-<rect x="56" y="318" width="288" height="54" rx="8" fill="#D8CCBA" stroke="#B0A090" stroke-width="2"/>
-<rect x="56" y="318" width="288" height="14" rx="6" fill="#C4B8A4"/>
-<!-- Sink basin -->
-<rect x="100" y="275" width="200" height="98" rx="12" fill="#B8D4E8" stroke="#88AABF" stroke-width="2.5"/>
-<rect x="108" y="283" width="184" height="82" rx="8" fill="#CCE8F8"/>
-<!-- Water in sink -->
-<rect x="108" y="330" width="184" height="35" rx="6" fill="url(#p2-water)" opacity="0.8"/>
-<!-- Water ripple -->
-<ellipse cx="200" cy="344" rx="55" ry="9" fill="none" stroke="#4890C0" stroke-width="1.8" opacity="0.5"/>
-<ellipse cx="200" cy="344" rx="28" ry="5" fill="none" stroke="#4890C0" stroke-width="1.2" opacity="0.45"/>
-<!-- Drain -->
-<ellipse cx="200" cy="360" rx="11" ry="5" fill="#88A8BC" stroke="#6090A8" stroke-width="1.5"/>
-
 <!-- Faucet -->
 <rect x="186" y="234" width="28" height="12" rx="5" fill="#D0D0D8" stroke="#A0A0B0" stroke-width="1.8"/>
 <rect x="193" y="220" width="14" height="30" rx="5" fill="#D0D0D8" stroke="#A0A0B0" stroke-width="1.8"/>
@@ -71,31 +56,14 @@
 <path d="M197,246 Q196,268 197,280" fill="none" stroke="#78C0E8" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
 <path d="M203,246 Q204,268 203,280" fill="none" stroke="#78C0E8" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
 
-<!-- Water splashes -->
-<path d="M168,282 Q155,266 160,258" fill="none" stroke="#78C0E8" stroke-width="2.8" stroke-linecap="round"/>
-<path d="M232,282 Q245,266 240,258" fill="none" stroke="#78C0E8" stroke-width="2.8" stroke-linecap="round"/>
-<circle cx="152" cy="254" r="4.5" fill="#88C8F0" opacity="0.8"/>
-<circle cx="248" cy="252" r="3.5" fill="#88C8F0" opacity="0.8"/>
-<circle cx="144" cy="270" r="3" fill="#88C8F0" opacity="0.7"/>
-<circle cx="256" cy="268" r="4" fill="#88C8F0" opacity="0.7"/>
-<circle cx="140" cy="292" r="2.5" fill="#88C8F0" opacity="0.6"/>
-<circle cx="262" cy="286" r="3" fill="#88C8F0" opacity="0.6"/>
-
-<!-- Strawberry being washed -->
-<ellipse cx="200" cy="288" rx="23" ry="19" fill="#FF3355" stroke="#CC1133" stroke-width="2.2"/>
-<path d="M200,269 C193,261 187,263 190,269 C191,261 200,257 200,264 C200,257 209,261 210,269 C213,263 207,261 200,269" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-<ellipse cx="191" cy="285" rx="4.2" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-10,191,285)"/>
-<ellipse cx="202" cy="280" rx="4.2" ry="3" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
-<ellipse cx="213" cy="287" rx="4" ry="2.8" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(10,213,287)"/>
-
 <!-- === BERRYBOT === -->
 <g filter="url(#p2-drop)">
   <!-- Legs -->
-  <rect x="148" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
-  <rect x="172" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="148" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="172" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
   <!-- Feet -->
-  <ellipse cx="156" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
-  <ellipse cx="180" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="156" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="180" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
 
   <!-- Body -->
   <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p2-body)" stroke="#AA0022" stroke-width="3"/>
@@ -147,6 +115,59 @@
   <ellipse cx="130" cy="224" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
   <ellipse cx="202" cy="224" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
 </g>
+
+<!-- === SINK AREA (front layer) === -->
+<!-- Counter top -->
+<rect x="56" y="318" width="288" height="54" rx="8" fill="#D8CCBA" stroke="#B0A090" stroke-width="2"/>
+<rect x="56" y="318" width="288" height="14" rx="6" fill="#C4B8A4"/>
+<!-- Sink basin -->
+<rect x="100" y="275" width="200" height="98" rx="12" fill="#B8D4E8" stroke="#88AABF" stroke-width="2.5"/>
+<rect x="108" y="283" width="184" height="82" rx="8" fill="#CCE8F8"/>
+
+<!-- === WATER & FRUITS (front layer) === -->
+<!-- Water fill -->
+<rect x="108" y="284" width="184" height="88" rx="6" fill="url(#p2-water)" opacity="0.82"/>
+<!-- Water surface ripples -->
+<ellipse cx="200" cy="290" rx="58" ry="10" fill="none" stroke="#4890C0" stroke-width="2" opacity="0.5"/>
+<ellipse cx="200" cy="290" rx="30" ry="6" fill="none" stroke="#4890C0" stroke-width="1.3" opacity="0.45"/>
+<!-- Drain -->
+<ellipse cx="200" cy="366" rx="11" ry="5" fill="#88A8BC" stroke="#6090A8" stroke-width="1.5"/>
+<!-- Strawberry 1 -->
+<ellipse cx="187" cy="314" rx="20" ry="17" fill="#FF3355" stroke="#CC1133" stroke-width="2.2"/>
+<path d="M187,297 C180,289 174,291 177,297 C178,289 187,285 187,292 C187,285 196,289 197,297 C200,291 194,289 187,297" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="179" cy="311" rx="3.8" ry="2.7" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-10,179,311)"/>
+<ellipse cx="190" cy="306" rx="3.8" ry="2.7" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+<ellipse cx="199" cy="313" rx="3.5" ry="2.5" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(10,199,313)"/>
+<!-- Strawberry 2 -->
+<ellipse cx="220" cy="308" rx="17" ry="14" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
+<path d="M220,294 C214,287 209,289 211,294 C212,287 220,284 220,289 C220,284 228,287 229,294 C231,289 226,287 220,294" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="214" cy="305" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+<ellipse cx="224" cy="302" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(8,224,302)"/>
+<!-- Strawberry 3 -->
+<ellipse cx="163" cy="308" rx="16" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+<path d="M163,295 C157,288 152,290 154,295 C155,288 163,285 163,290 C163,285 171,288 172,295 C174,290 169,288 163,295" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="158" cy="305" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+<ellipse cx="167" cy="303" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1"/>
+<!-- Blueberries in water -->
+<circle cx="142" cy="320" r="11" fill="#5566DD" stroke="#3344AA" stroke-width="1.8"/>
+<circle cx="142" cy="320" r="4" fill="#8899FF" opacity="0.55"/>
+<circle cx="128" cy="313" r="9.5" fill="#4455CC" stroke="#3344AA" stroke-width="1.8"/>
+<circle cx="250" cy="318" r="10.5" fill="#5566DD" stroke="#3344AA" stroke-width="1.8"/>
+<circle cx="250" cy="318" r="3.5" fill="#8899FF" opacity="0.55"/>
+<circle cx="264" cy="311" r="9" fill="#4455CC" stroke="#3344AA" stroke-width="1.8"/>
+<!-- Water splashes -->
+<path d="M153,287 Q144,269 148,257" fill="none" stroke="#78C0E8" stroke-width="2.8" stroke-linecap="round"/>
+<path d="M247,287 Q256,269 252,257" fill="none" stroke="#78C0E8" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="142" cy="253" r="5" fill="#88C8F0" opacity="0.9"/>
+<circle cx="255" cy="255" r="4.5" fill="#88C8F0" opacity="0.9"/>
+<circle cx="134" cy="269" r="3.5" fill="#88C8F0" opacity="0.8"/>
+<circle cx="265" cy="267" r="3" fill="#88C8F0" opacity="0.8"/>
+<circle cx="126" cy="287" r="3" fill="#88C8F0" opacity="0.75"/>
+<circle cx="274" cy="283" r="3.5" fill="#88C8F0" opacity="0.75"/>
+<circle cx="176" cy="285" r="2.5" fill="#88C8F0" opacity="0.8"/>
+<circle cx="222" cy="283" r="2.5" fill="#88C8F0" opacity="0.8"/>
+<circle cx="160" cy="295" r="2" fill="#88C8F0" opacity="0.7"/>
+<circle cx="241" cy="293" r="2" fill="#88C8F0" opacity="0.7"/>
 
 <!-- Speech bubble -->
 <path d="M16,38 Q16,18 36,18 L200,18 Q220,18 220,38 L220,88 Q220,108 200,108 L100,108 L88,124 L82,108 Q16,108 16,88 Z" fill="white" stroke="#A8D8F8" stroke-width="2.2" filter="url(#p2-soft)"/>

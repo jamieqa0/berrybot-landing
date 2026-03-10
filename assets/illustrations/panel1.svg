@@ -48,36 +48,59 @@
 
 <!-- === BASKET (right side) === -->
 <g filter="url(#p1-soft)">
-  <path d="M278,272 L266,348 L362,348 L350,272 Z" fill="url(#p1-basket)" stroke="#7A4818" stroke-width="2.5"/>
+  <!-- Basket body with rounded bottom -->
+  <path d="M278,272 L264,342 Q314,368 364,342 L350,272 Z" fill="url(#p1-basket)" stroke="#7A4818" stroke-width="2.5"/>
+  <!-- Weave lines -->
   <line x1="270" y1="292" x2="358" y2="292" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
   <line x1="268" y1="312" x2="360" y2="312" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
-  <line x1="267" y1="330" x2="361" y2="330" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
-  <line x1="298" y1="272" x2="292" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
-  <line x1="314" y1="272" x2="314" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
-  <line x1="330" y1="272" x2="336" y2="348" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <line x1="267" y1="328" x2="361" y2="328" stroke="#7A4818" stroke-width="1.1" opacity="0.5"/>
+  <line x1="298" y1="272" x2="291" y2="350" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <line x1="314" y1="272" x2="314" y2="354" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <line x1="330" y1="272" x2="337" y2="350" stroke="#7A4818" stroke-width="1.1" opacity="0.4"/>
+  <!-- Handle -->
   <path d="M282,272 Q314,237 346,272" fill="none" stroke="#7A4818" stroke-width="5" stroke-linecap="round"/>
   <path d="M282,274 L346,274" stroke="#E8C070" stroke-width="1.8" opacity="0.6"/>
-  <!-- Strawberries -->
-  <ellipse cx="298" cy="266" rx="17" ry="14" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
-  <path d="M298,252 C291,244 286,246 289,252 C290,244 298,241 298,247 C298,241 306,244 307,252 C310,246 305,244 298,252" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
-  <ellipse cx="293" cy="263" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(-15,293,263)"/>
-  <ellipse cx="303" cy="260" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
-  <ellipse cx="296" cy="270" rx="3" ry="2.1" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(12,296,270)"/>
-  <ellipse cx="326" cy="259" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="1.8"/>
-  <path d="M326,246 C319,238 314,240 317,246 C318,238 326,235 326,241 C326,235 334,238 335,246 C338,240 333,238 326,246" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
-  <ellipse cx="321" cy="256" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
-  <ellipse cx="332" cy="254" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(10,332,254)"/>
-  <ellipse cx="312" cy="278" rx="14" ry="11" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+  <!-- Back layer: blueberries -->
+  <circle cx="291" cy="324" r="9" fill="#5566DD" stroke="#3344AA" stroke-width="1.5"/>
+  <circle cx="291" cy="324" r="3" fill="#8899FF" opacity="0.5"/>
+  <circle cx="309" cy="328" r="8.5" fill="#4455CC" stroke="#3344AA" stroke-width="1.5"/>
+  <circle cx="309" cy="328" r="2.8" fill="#7788EE" opacity="0.5"/>
+  <circle cx="328" cy="322" r="9" fill="#5566DD" stroke="#3344AA" stroke-width="1.5"/>
+  <circle cx="328" cy="322" r="3" fill="#8899FF" opacity="0.5"/>
+  <circle cx="347" cy="326" r="8" fill="#4455CC" stroke="#3344AA" stroke-width="1.5"/>
+  <circle cx="347" cy="326" r="2.6" fill="#7788EE" opacity="0.5"/>
+  <!-- Back strawberries -->
+  <ellipse cx="283" cy="300" rx="14" ry="11" fill="#FF4466" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M283,289 C277,282 273,284 275,289 C276,282 283,279 283,284 C283,279 290,282 291,289 C293,284 289,282 283,289" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="279" cy="298" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="287" cy="295" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="346" cy="297" rx="13" ry="10" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M346,287 C340,280 336,282 338,287 C339,280 346,277 346,282 C346,277 353,280 354,287 C356,282 352,280 346,287" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="342" cy="295" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="350" cy="292" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <!-- Front strawberries -->
+  <ellipse cx="298" cy="267" rx="17" ry="14" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M298,253 C291,245 286,247 289,253 C290,245 298,242 298,248 C298,242 306,245 307,253 C310,247 305,245 298,253" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="293" cy="264" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(-15,293,264)"/>
+  <ellipse cx="303" cy="261" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="296" cy="271" rx="3" ry="2.1" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(12,296,271)"/>
+  <ellipse cx="326" cy="260" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="1.8"/>
+  <path d="M326,247 C319,239 314,241 317,247 C318,239 326,236 326,242 C326,236 334,239 335,247 C338,241 333,239 326,247" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+  <ellipse cx="321" cy="257" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="332" cy="255" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(10,332,255)"/>
+  <ellipse cx="312" cy="280" rx="14" ry="11" fill="#FF3355" stroke="#CC1133" stroke-width="1.8"/>
+  <ellipse cx="308" cy="277" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+  <ellipse cx="316" cy="275" rx="2.5" ry="1.8" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
 </g>
 
 <!-- === BERRYBOT === -->
 <g filter="url(#p1-drop)">
   <!-- Legs -->
-  <rect x="148" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
-  <rect x="172" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="148" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="172" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
   <!-- Feet -->
-  <ellipse cx="156" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
-  <ellipse cx="180" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="156" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="180" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
 
   <!-- Body -->
   <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p1-body)" stroke="#AA0022" stroke-width="3"/>

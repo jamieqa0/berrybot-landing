@@ -49,63 +49,23 @@
 <ellipse cx="200" cy="405" rx="115" ry="14" fill="#B08040" opacity="0.15"/>
 
 <!-- Inspection lamp glow -->
-<ellipse cx="316" cy="155" rx="60" ry="80" fill="url(#p3-lamp)" opacity="0.4"/>
+<ellipse cx="334" cy="155" rx="60" ry="80" fill="url(#p3-lamp)" opacity="0.4"/>
 
 <!-- Inspection lamp -->
-<rect x="310" y="28" width="12" height="44" rx="5" fill="#C0C0C8" stroke="#909098" stroke-width="1.8"/>
+<rect x="328" y="28" width="12" height="44" rx="5" fill="#C0C0C8" stroke="#909098" stroke-width="1.8"/>
 <path d="M300,72 L368,72 L354,112 L314,112 Z" fill="#FFD700" stroke="#B89000" stroke-width="2"/>
 <!-- Lamp highlight -->
 <path d="M306,76 L362,76" stroke="#FFE870" stroke-width="2" opacity="0.7"/>
 <ellipse cx="334" cy="112" rx="22" ry="7" fill="#FFE870" opacity="0.55" filter="url(#p3-glow)"/>
 
-<!-- Work table -->
-<rect x="36" y="325" width="328" height="52" rx="10" fill="#D4A460" stroke="#9A7028" stroke-width="2.5"/>
-<rect x="36" y="325" width="328" height="15" rx="7" fill="#BE8E44"/>
-<!-- Table highlight -->
-<path d="M46,330 L354,330" stroke="#E8C070" stroke-width="1.5" opacity="0.5"/>
-
-<!-- Strawberries on table -->
-<ellipse cx="80" cy="320" rx="17" ry="14" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
-<path d="M80,306 C73,298 68,300 71,306 C72,298 80,295 80,301 C80,295 88,298 89,306 C92,300 87,298 80,306" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-<ellipse cx="75" cy="317" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(-12,75,317)"/>
-<ellipse cx="84" cy="314" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
-<!-- OK badge -->
-<circle cx="80" cy="298" r="8" fill="#22CC55" stroke="white" stroke-width="1.8"/>
-<text x="80" y="302" text-anchor="middle" fill="white" font-size="9" font-weight="bold">✓</text>
-
-<ellipse cx="118" cy="320" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
-<path d="M118,307 C111,299 106,301 109,307 C110,299 118,296 118,302 C118,296 126,299 127,307 C130,301 125,299 118,307" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-<ellipse cx="114" cy="317" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
-<ellipse cx="122" cy="315" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(10,122,315)"/>
-<circle cx="118" cy="299" r="8" fill="#22CC55" stroke="white" stroke-width="1.8"/>
-<text x="118" y="303" text-anchor="middle" fill="white" font-size="9" font-weight="bold">✓</text>
-
-<!-- Strawberry being inspected (under magnifying glass) -->
-<ellipse cx="156" cy="319" rx="16" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
-<path d="M156,306 C149,298 144,300 147,306 C148,298 156,295 156,301 C156,295 164,298 165,306 C168,300 163,298 156,306" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-<path d="M148,318 L154,325 L166,309" fill="none" stroke="#22CC55" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
-
-<!-- Magnifying glass -->
-<rect x="252" y="256" width="12" height="58" rx="5" fill="#9A5828" stroke="#6A3810" stroke-width="2" transform="rotate(32,258,285)"/>
-<circle cx="230" cy="248" r="34" fill="none" stroke="#D0D0D8" stroke-width="7"/>
-<circle cx="230" cy="248" r="30" fill="#EEF6FF" fill-opacity="0.65" stroke="#C0C0C8" stroke-width="2"/>
-<!-- Lens reflection -->
-<path d="M213,230 Q220,224 232,226" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<!-- Strawberry in magnifying glass (enlarged) -->
-<ellipse cx="230" cy="252" rx="20" ry="17" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
-<path d="M230,235 C223,226 217,228 220,235 C221,226 230,223 230,229 C230,223 239,226 240,235 C243,228 237,226 230,235" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
-<ellipse cx="223" cy="249" rx="4.5" ry="3.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-8,223,249)"/>
-<ellipse cx="234" cy="245" rx="4.5" ry="3.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(8,234,245)"/>
-<ellipse cx="238" cy="256" rx="4" ry="2.8" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-12,238,256)"/>
-
 <!-- === BERRYBOT === -->
 <g filter="url(#p3-drop)">
   <!-- Legs -->
-  <rect x="148" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
-  <rect x="172" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="148" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="172" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
   <!-- Feet -->
-  <ellipse cx="156" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
-  <ellipse cx="180" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="156" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="180" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
 
   <!-- Body -->
   <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p3-body)" stroke="#AA0022" stroke-width="3"/>
@@ -142,9 +102,8 @@
   <circle cx="150" cy="208" r="13" fill="white" stroke="#222" stroke-width="2.2"/>
   <circle cx="152" cy="210" r="7.5" fill="#1A1A1A"/>
   <circle cx="155" cy="206" r="3.5" fill="white"/>
-  <!-- Squinted right eye -->
-  <path d="M170,207 Q182,200 194,207" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
-  <path d="M172,210 Q182,215 192,210" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <!-- Winking right eye -->
+  <path d="M171,210 Q182,203 193,210" fill="none" stroke="#1A1A1A" stroke-width="3.5" stroke-linecap="round"/>
 
   <!-- Determined mouth -->
   <path d="M154,228 Q166,234 178,228" fill="none" stroke="#AA0022" stroke-width="2.8" stroke-linecap="round"/>
@@ -153,6 +112,58 @@
   <ellipse cx="130" cy="222" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
   <ellipse cx="202" cy="222" rx="13" ry="8" fill="#FFB3C1" opacity="0.65"/>
 </g>
+
+<!-- === WORK TABLE & FRUITS (front layer) === -->
+<!-- Work table -->
+<rect x="36" y="325" width="328" height="52" rx="10" fill="#D4A460" stroke="#9A7028" stroke-width="2.5"/>
+<rect x="36" y="325" width="328" height="15" rx="7" fill="#BE8E44"/>
+<!-- Table highlight -->
+<path d="M46,330 L354,330" stroke="#E8C070" stroke-width="1.5" opacity="0.5"/>
+
+<!-- Strawberries on table -->
+<ellipse cx="80" cy="320" rx="17" ry="14" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+<path d="M80,306 C73,298 68,300 71,306 C72,298 80,295 80,301 C80,295 88,298 89,306 C92,300 87,298 80,306" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="75" cy="317" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(-12,75,317)"/>
+<ellipse cx="84" cy="314" rx="3.2" ry="2.3" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+<!-- OK badge -->
+<circle cx="80" cy="298" r="8" fill="#22CC55" stroke="white" stroke-width="1.8"/>
+<text x="80" y="302" text-anchor="middle" fill="white" font-size="9" font-weight="bold">✓</text>
+
+<ellipse cx="118" cy="320" rx="16" ry="13" fill="#FF4466" stroke="#CC1133" stroke-width="2"/>
+<path d="M118,307 C111,299 106,301 109,307 C110,299 118,296 118,302 C118,296 126,299 127,307 C130,301 125,299 118,307" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="114" cy="317" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9"/>
+<ellipse cx="122" cy="315" rx="3" ry="2.2" fill="#FFE14D" stroke="#CCA800" stroke-width="0.9" transform="rotate(10,122,315)"/>
+<circle cx="118" cy="299" r="8" fill="#22CC55" stroke="white" stroke-width="1.8"/>
+<text x="118" y="303" text-anchor="middle" fill="white" font-size="9" font-weight="bold">✓</text>
+
+<!-- Strawberry being inspected (trimmed — no stem) -->
+<ellipse cx="156" cy="319" rx="16" ry="13" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+<path d="M148,318 L154,325 L166,309" fill="none" stroke="#22CC55" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Detached cap floating off (just cut) -->
+<g transform="translate(170,299) rotate(-28)">
+  <path d="M0,9 C-4,1 -8,0 -7,5 C-6,1 0,-2 0,3 C0,-2 6,1 7,5 C8,0 4,1 0,9" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.2"/>
+</g>
+<!-- Detached cap on table -->
+<g transform="translate(136,331) rotate(18)">
+  <path d="M0,8 C-3,1 -7,0 -6,4 C-5,1 0,-2 0,2 C0,-2 5,1 6,4 C7,0 3,1 0,8" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.0"/>
+</g>
+
+<!-- Magnifying glass -->
+<!-- Handle: starts at lens ring (cx=230,cy=248, r=30) bottom-right ~45° → (251,269) -->
+<line x1="251" y1="269" x2="280" y2="300" stroke="#6A3810" stroke-width="14" stroke-linecap="round"/>
+<line x1="251" y1="269" x2="280" y2="300" stroke="#9A5828" stroke-width="10" stroke-linecap="round"/>
+<!-- Outer ring -->
+<circle cx="230" cy="248" r="32" fill="none" stroke="#C8C8D0" stroke-width="8"/>
+<!-- Lens glass -->
+<circle cx="230" cy="248" r="26" fill="#EEF6FF" fill-opacity="0.65"/>
+<!-- Lens reflection -->
+<path d="M214,232 Q221,226 233,228" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<!-- Strawberry in magnifying glass (enlarged) -->
+<ellipse cx="230" cy="252" rx="20" ry="17" fill="#FF3355" stroke="#CC1133" stroke-width="2"/>
+<path d="M230,235 C223,226 217,228 220,235 C221,226 230,223 230,229 C230,223 239,226 240,235 C243,228 237,226 230,235" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+<ellipse cx="223" cy="249" rx="4.5" ry="3.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-8,223,249)"/>
+<ellipse cx="234" cy="245" rx="4.5" ry="3.2" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(8,234,245)"/>
+<ellipse cx="238" cy="256" rx="4" ry="2.8" fill="#FFE14D" stroke="#CCA800" stroke-width="1" transform="rotate(-12,238,256)"/>
 
 <!-- Speech bubble -->
 <path d="M16,38 Q16,18 36,18 L218,18 Q238,18 238,38 L238,88 Q238,108 218,108 L108,108 L96,124 L90,108 Q16,108 16,88 Z" fill="white" stroke="#FFE0A0" stroke-width="2.2" filter="url(#p3-soft)"/>

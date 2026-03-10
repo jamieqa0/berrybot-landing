@@ -63,6 +63,62 @@
 <!-- Ground shadow -->
 <ellipse cx="200" cy="405" rx="115" ry="14" fill="#B06080" opacity="0.14"/>
 
+<!-- === BERRYBOT === -->
+<g filter="url(#p4-drop)">
+  <!-- Legs -->
+  <rect x="148" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <rect x="172" y="368" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
+  <!-- Feet -->
+  <ellipse cx="156" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+  <ellipse cx="180" cy="396" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
+
+  <!-- Body -->
+  <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p4-body)" stroke="#AA0022" stroke-width="3"/>
+
+  <!-- Apron -->
+  <path d="M122,268 Q166,258 210,268 Q207,326 166,340 Q125,326 122,268" fill="white" fill-opacity="0.80" stroke="#FFD8E0" stroke-width="1.5"/>
+  <ellipse cx="150" cy="290" rx="5.5" ry="7" fill="#FF3355" opacity="0.38"/>
+  <ellipse cx="167" cy="283" rx="4.5" ry="6" fill="#FF3355" opacity="0.28"/>
+  <ellipse cx="182" cy="296" rx="4.5" ry="6" fill="#FF3355" opacity="0.28"/>
+
+  <!-- Seeds -->
+  <ellipse cx="132" cy="232" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,132,232)"/>
+  <ellipse cx="160" cy="218" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,160,218)"/>
+  <ellipse cx="192" cy="226" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,192,226)"/>
+  <ellipse cx="123" cy="268" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,123,268)"/>
+  <ellipse cx="208" cy="264" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,208,264)"/>
+
+  <!-- Arms extended forward (holding bowl) -->
+  <path d="M95,278 L65,300" stroke="url(#p4-body)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="57" cy="306" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
+  <path d="M237,278 L267,300" stroke="url(#p4-body)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="275" cy="306" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
+
+  <!-- Leaf crown -->
+  <path d="M126,185 C124,155 138,138 149,156 C149,134 160,121 168,139 C174,122 186,132 181,151 C191,135 204,145 198,164 C208,153 220,164 212,183 L166,186 Z" fill="url(#p4-leaf)" stroke="#1B5E20" stroke-width="2.2"/>
+  <path d="M147,163 C149,146 158,133 163,141" fill="none" stroke="#A5D6A7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M180,151 C182,138 188,132 190,139" fill="none" stroke="#A5D6A7" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Face -->
+  <ellipse cx="166" cy="214" rx="42" ry="33" fill="url(#p4-face)"/>
+
+  <!-- Happy crescent eyes -->
+  <path d="M140,212 Q152,200 164,212" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+  <path d="M172,212 Q184,200 196,212" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+  <!-- Eye sparkles -->
+  <circle cx="140" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
+  <circle cx="164" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
+  <circle cx="172" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
+  <circle cx="196" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
+
+  <!-- Big proud smile -->
+  <path d="M150,228 Q166,246 182,228" fill="none" stroke="#AA0022" stroke-width="3.8" stroke-linecap="round"/>
+
+  <!-- Cheeks (extra rosy, proud!) -->
+  <ellipse cx="130" cy="226" rx="14" ry="9" fill="#FFB3C1" opacity="0.75"/>
+  <ellipse cx="202" cy="226" rx="14" ry="9" fill="#FFB3C1" opacity="0.75"/>
+</g>
+
 <!-- === BOWL OF MIXED BERRIES === -->
 <g filter="url(#p4-bowlshadow)">
   <!-- Bowl body -->
@@ -116,62 +172,6 @@
 
   <!-- Sparkle on bowl -->
   <text x="270" y="293" font-size="22" fill="#FFB800">✨</text>
-</g>
-
-<!-- === BERRYBOT === -->
-<g filter="url(#p4-drop)">
-  <!-- Legs -->
-  <rect x="148" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
-  <rect x="172" y="376" width="16" height="28" rx="8" fill="#B8B8C8" stroke="#909098" stroke-width="2"/>
-  <!-- Feet -->
-  <ellipse cx="156" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
-  <ellipse cx="180" cy="404" rx="14" ry="8.5" fill="#909098" stroke="#686870" stroke-width="1.8"/>
-
-  <!-- Body -->
-  <path d="M166,178 C114,183 92,222 94,268 C96,314 129,356 166,368 C203,356 236,314 238,268 C240,222 218,183 166,178" fill="url(#p4-body)" stroke="#AA0022" stroke-width="3"/>
-
-  <!-- Apron -->
-  <path d="M122,268 Q166,258 210,268 Q207,326 166,340 Q125,326 122,268" fill="white" fill-opacity="0.80" stroke="#FFD8E0" stroke-width="1.5"/>
-  <ellipse cx="150" cy="290" rx="5.5" ry="7" fill="#FF3355" opacity="0.38"/>
-  <ellipse cx="167" cy="283" rx="4.5" ry="6" fill="#FF3355" opacity="0.28"/>
-  <ellipse cx="182" cy="296" rx="4.5" ry="6" fill="#FF3355" opacity="0.28"/>
-
-  <!-- Seeds -->
-  <ellipse cx="132" cy="232" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-20,132,232)"/>
-  <ellipse cx="160" cy="218" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-5,160,218)"/>
-  <ellipse cx="192" cy="226" rx="6" ry="4.1" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(15,192,226)"/>
-  <ellipse cx="123" cy="268" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(-15,123,268)"/>
-  <ellipse cx="208" cy="264" rx="5" ry="3.4" fill="#FFE14D" stroke="#CCA800" stroke-width="1.5" transform="rotate(20,208,264)"/>
-
-  <!-- Arms extended forward (holding bowl) -->
-  <path d="M95,278 L65,300" stroke="url(#p4-body)" stroke-width="20" stroke-linecap="round"/>
-  <circle cx="57" cy="306" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
-  <path d="M237,278 L267,300" stroke="url(#p4-body)" stroke-width="20" stroke-linecap="round"/>
-  <circle cx="275" cy="306" r="14" fill="#FF3355" stroke="#AA0022" stroke-width="2.5"/>
-
-  <!-- Leaf crown -->
-  <path d="M126,185 C124,155 138,138 149,156 C149,134 160,121 168,139 C174,122 186,132 181,151 C191,135 204,145 198,164 C208,153 220,164 212,183 L166,186 Z" fill="url(#p4-leaf)" stroke="#1B5E20" stroke-width="2.2"/>
-  <path d="M147,163 C149,146 158,133 163,141" fill="none" stroke="#A5D6A7" stroke-width="2" stroke-linecap="round"/>
-  <path d="M180,151 C182,138 188,132 190,139" fill="none" stroke="#A5D6A7" stroke-width="1.5" stroke-linecap="round"/>
-
-  <!-- Face -->
-  <ellipse cx="166" cy="214" rx="42" ry="33" fill="url(#p4-face)"/>
-
-  <!-- Happy crescent eyes -->
-  <path d="M140,212 Q152,200 164,212" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
-  <path d="M172,212 Q184,200 196,212" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
-  <!-- Eye sparkles -->
-  <circle cx="140" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
-  <circle cx="164" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
-  <circle cx="172" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
-  <circle cx="196" cy="212" r="2.5" fill="#FFB800" opacity="0.85"/>
-
-  <!-- Big proud smile -->
-  <path d="M150,228 Q166,246 182,228" fill="none" stroke="#AA0022" stroke-width="3.8" stroke-linecap="round"/>
-
-  <!-- Cheeks (extra rosy, proud!) -->
-  <ellipse cx="130" cy="226" rx="14" ry="9" fill="#FFB3C1" opacity="0.75"/>
-  <ellipse cx="202" cy="226" rx="14" ry="9" fill="#FFB3C1" opacity="0.75"/>
 </g>
 
 <!-- Speech bubble -->
