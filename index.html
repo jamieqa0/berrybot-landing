@@ -4,14 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>베리봇 — 딸기 손질 구독 서비스</title>
+  <title>베리봇 — 딸기 손질 로봇 구독 서비스</title>
   <meta name="description" content="집에서 베리봇이 세척·꼭지 제거까지 — 딸기 손질 전용 가정용 로봇 구독 서비스. 첫 달 50% 할인, 언제든 해지 가능." />
-  <meta property="og:title" content="베리봇 — 딸기 손질 구독 서비스" />
+  <meta property="og:title" content="베리봇 — 딸기 손질 로봇 구독 서비스" />
   <meta property="og:description" content="베리봇이 세척부터 꼭지 제거까지. 바로 먹을 수 있는 딸기를 손쉽게 즐기세요." />
   <meta property="og:type" content="website" />
-  <link rel="icon" href="https://raw.githubusercontent.com/jamieqa0/berrybot-landing/main/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="https://raw.githubusercontent.com/jamieqa0/berrybot-landing/main/assets/favicon.svg"
+    type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
-  <style>[data-reveal]{opacity:0;transform:translateY(30px)}</style>
+  <style>
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(30px)
+    }
+  </style>
 </head>
 
 <body>
@@ -27,225 +33,226 @@
         <li><a href="#features">특장점</a></li>
       </ul>
       <a href="#plans" class="btn btn-primary nav-cta">구독 시작하기</a>
-      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false"
+        aria-controls="navLinks">☰</button>
     </div>
   </nav>
 
   <main>
 
-  <!-- ===== HERO ===== -->
-  <section id="hero">
-    <div class="hero-seeds-bg"></div>
-    <div class="hero-inner">
-      <div class="hero-badge">🤖 딸기 손질 전용 로봇</div>
-      <h1 class="hero-title">
-        베리봇이 세척·손질한 딸기,<br />
-        바로 <span class="accent">먹을 수 있어요</span>
-      </h1>
-      <p class="hero-sub">세척부터 꼭지 제거까지, 베리봇이 손질해드려요 — 바로 먹을 수 있는 딸기를 손쉽게 즐기세요</p>
-      <p class="hero-urgency">⏰ 지금 구독하면 첫 달 50% 할인 · 언제든 해지 가능</p>
-      <div class="hero-cta-group">
-        <a href="#plans" class="btn btn-primary">구독 시작하기</a>
-        <a href="#comic" class="btn btn-ghost">어떻게 만드나요?</a>
-      </div>
-    </div>
-    <div class="hero-robot-wrap">
-      <img src="assets/illustrations/panel4.svg" alt="베리봇 캐릭터" class="hero-robot" />
-    </div>
-  </section>
-
-  <!-- ===== 4컷 만화 ===== -->
-  <section id="comic">
-    <div class="section-header">
-      <span class="section-tag">베리봇 로봇의 하루</span>
-      <h2>집에서 베리봇이 손질하는 베리 한 알의 여정</h2>
-      <p>딸기·블루베리·라즈베리까지, 베리봇에 넣으면 손질 완료 — 4컷으로 만나보세요</p>
-    </div>
-    <div class="comic-grid">
-      <div class="comic-panel" data-reveal>
-        <img src="assets/illustrations/panel1.svg" alt="1컷 - 딸기 넣기" />
-      </div>
-      <div class="comic-panel" data-reveal>
-        <img src="assets/illustrations/panel2.svg" alt="2컷 - 세척" />
-      </div>
-      <div class="comic-panel" data-reveal>
-        <img src="assets/illustrations/panel3.svg" alt="3컷 - 다듬기" />
-      </div>
-      <div class="comic-panel" data-reveal>
-        <img src="assets/illustrations/panel4.svg" alt="4컷 - 꼭지 제거 완료" />
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== 구독 플랜 ===== -->
-  <section id="plans">
-    <div class="section-header">
-      <span class="section-tag">구독 플랜</span>
-      <h2>나에게 맞는 플랜 고르기</h2>
-      <p>첫 달은 50% 할인 — 언제든 변경·해지 가능해요</p>
-    </div>
-    <div class="plans-grid">
-
-      <div class="plan-card" data-reveal>
-        <div class="plan-icon">🍓</div>
-        <div class="plan-name">라이트</div>
-        <div class="plan-tagline">딸기만 간편하게</div>
-        <div class="plan-price">
-          <span class="price-num">9,900</span><span class="price-unit">원 / 월</span>
-        </div>
-        <div class="plan-target">👤 1인 가구 · 딸기 가끔 드시는 분</div>
-        <div class="plan-fruits">🍓</div>
-        <ul class="plan-features">
-          <li class="feat-yes">딸기 전용 (1가지 과일)</li>
-          <li class="feat-yes">기본 세척 + 꼭지 제거</li>
-          <li class="feat-no">다듬기 전 과정 <span class="feat-hint">홈 이상</span></li>
-          <li class="feat-no">AI 손질 품질 보증 <span class="feat-hint">홈 이상</span></li>
-          <li class="feat-no">과일 쉐이크 모드 <span class="feat-hint">패밀리 전용</span></li>
-        </ul>
-        <a href="#footer" class="btn btn-outline">시작하기</a>
-      </div>
-
-      <div class="plan-card plan-best" data-reveal>
-        <div class="plan-badge">인기</div>
-        <div class="plan-icon">🫐</div>
-        <div class="plan-name">홈</div>
-        <div class="plan-tagline">가족을 위한 완전한 손질</div>
-        <div class="plan-price">
-          <span class="price-num">19,900</span><span class="price-unit">원 / 월</span>
-        </div>
-        <p class="plan-social-proof">월 1,200명 구독 중</p>
-        <div class="plan-target">👨‍👩‍👧 2~3인 가족 · 베리 자주 드시는 분</div>
-        <div class="plan-fruits">🍓 🫐</div>
-        <ul class="plan-features">
-          <li class="feat-yes">딸기 + 블루베리 (2가지 과일)</li>
-          <li class="feat-yes">세척 · 다듬기 · 꼭지 제거 전 과정</li>
-          <li class="feat-yes">AI 손질 품질 보증</li>
-          <li class="feat-yes">한입 크기 자동 커팅</li>
-          <li class="feat-no">과일 쉐이크 모드 <span class="feat-hint">패밀리 전용</span></li>
-        </ul>
-        <a href="#footer" class="btn btn-primary">시작하기</a>
-      </div>
-
-      <div class="plan-card" data-reveal>
-        <div class="plan-icon">🍒</div>
-        <div class="plan-name">패밀리</div>
-        <div class="plan-tagline">베리 마니아 가족을 위한 올인원</div>
-        <div class="plan-price">
-          <span class="price-num">34,900</span><span class="price-unit">원 / 월</span>
-        </div>
-        <div class="plan-target">👨‍👩‍👧‍👦 4인 이상 가족 · 다양한 베리 즐기는 분</div>
-        <div class="plan-fruits">🍓 🫐 🫐 🍒</div>
-        <ul class="plan-features">
-          <li class="feat-yes">딸기·블루베리·라즈베리·체리 (4가지)</li>
-          <li class="feat-yes">세척 · 다듬기 · 꼭지 제거 전 과정</li>
-          <li class="feat-yes">AI 손질 품질 보증</li>
-          <li class="feat-yes">우선 처리 예약 (대기 없이 즉시 시작)</li>
-          <li class="feat-yes">과일 쉐이크 모드</li>
-        </ul>
-        <a href="#footer" class="btn btn-primary">시작하기</a>
-      </div>
-
-    </div>
-    <p class="plans-note">* 모든 플랜 첫 달 50% 할인 적용</p>
-  </section>
-
-  <!-- ===== 로봇 사양 ===== -->
-  <section id="spec">
-    <div class="section-header">
-      <span class="section-tag">베리봇 로봇 사양</span>
-      <h2>어떻게 생겼나요?</h2>
-      <p>주방 조리대 위 컴팩트한 스마트 가전 — 작동 과정이 투명 돔으로 보여요</p>
-    </div>
-    <div class="spec-layout">
-      <div class="spec-overview" data-reveal>
-        <div class="spec-overview-item">
-          <span class="spec-overview-label">크기</span>
-          <span class="spec-overview-value">W 30 × D 28 × H 38 cm</span>
-        </div>
-        <div class="spec-overview-item">
-          <span class="spec-overview-label">소재</span>
-          <span class="spec-overview-value">무광 화이트 · 파스텔 유선형 바디</span>
-        </div>
-        <div class="spec-overview-item">
-          <span class="spec-overview-label">투명 돔</span>
-          <span class="spec-overview-value">강화유리 / 투명 폴리카보네이트</span>
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-seeds-bg"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🤖 딸기 손질 전용 로봇</div>
+        <h1 class="hero-title">
+          베리봇이 세척·손질한 딸기,<br />
+          바로 <span class="accent">먹을 수 있어요</span>
+        </h1>
+        <p class="hero-sub">세척부터 꼭지 제거까지, 베리봇이 손질해드려요 — 바로 먹을 수 있는 딸기를 손쉽게 즐기세요</p>
+        <p class="hero-urgency">⏰ 지금 구독하면 첫 달 50% 할인 · 언제든 해지 가능</p>
+        <div class="hero-cta-group">
+          <a href="#plans" class="btn btn-primary">구독 시작하기</a>
+          <a href="#comic" class="btn btn-ghost">어떻게 만드나요?</a>
         </div>
       </div>
-      <div class="spec-table-wrap" data-reveal>
-        <table class="spec-table">
-          <thead>
-            <tr>
-              <th>위치</th>
-              <th>명칭</th>
-              <th>역할</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>상단 입구</td>
-              <td><strong>호퍼 (Hopper)</strong></td>
-              <td>씻지 않은 딸기를 한꺼번에 투입</td>
-            </tr>
-            <tr>
-              <td>중앙부</td>
-              <td><strong>클린 존 (Clean Zone)</strong></td>
-              <td>미세 버블 + 초음파로 잔류 농약 제거 (3단 세척)</td>
-            </tr>
-            <tr>
-              <td>작업대</td>
-              <td><strong>트리밍 데크 (Trimming Deck)</strong></td>
-              <td>AI 카메라로 꼭지 위치 감지 후 소프트 그리퍼로 정밀 제거</td>
-            </tr>
-            <tr>
-              <td>하단 출구</td>
-              <td><strong>서빙 트레이 (Serving Tray)</strong></td>
-              <td>손질 완료된 딸기가 담겨 나오는 접시 거치대</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="hero-robot-wrap">
+        <img src="assets/illustrations/panel4.svg" alt="베리봇 캐릭터" class="hero-robot" />
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== 특장점 ===== -->
-  <section id="features">
-    <div class="section-header">
-      <span class="section-tag">왜 베리봇 로봇?</span>
-      <h2>가정용 로봇이 손질하니까 다릅니다</h2>
-    </div>
-    <div class="features-grid">
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">🚿</div>
-        <h3>3단 초음파 세척</h3>
-        <p>3단 초음파 세척으로 농약·이물질 99% 제거, 씻지 않고 바로 드실 수 있어요</p>
+    <!-- ===== 4컷 만화 ===== -->
+    <section id="comic">
+      <div class="section-header">
+        <span class="section-tag">베리봇 로봇의 하루</span>
+        <h2>집에서 베리봇이 손질하는 베리 한 알의 여정</h2>
+        <p>딸기·블루베리·라즈베리까지, 베리봇에 넣으면 손질 완료 — 4컷으로 만나보세요</p>
       </div>
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">✂️</div>
-        <h3>꼭지 완벽 제거</h3>
-        <p>AI가 꼭지 위치를 감지해 오차 1mm 이내로 깔끔하게 제거해드려요</p>
+      <div class="comic-grid">
+        <div class="comic-panel" data-reveal>
+          <img src="assets/illustrations/panel1.svg" alt="1컷 - 딸기 넣기" />
+        </div>
+        <div class="comic-panel" data-reveal>
+          <img src="assets/illustrations/panel2.svg" alt="2컷 - 세척" />
+        </div>
+        <div class="comic-panel" data-reveal>
+          <img src="assets/illustrations/panel3.svg" alt="3컷 - 다듬기" />
+        </div>
+        <div class="comic-panel" data-reveal>
+          <img src="assets/illustrations/panel4.svg" alt="4컷 - 꼭지 제거 완료" />
+        </div>
       </div>
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">🔍</div>
-        <h3>신선도 자동 식별</h3>
-        <p>AI 카메라가 과일의 숙도·당도·상태를 스캔해 최적의 손질 방식을 자동 설정해요</p>
+    </section>
+
+    <!-- ===== 구독 플랜 ===== -->
+    <section id="plans">
+      <div class="section-header">
+        <span class="section-tag">구독 플랜</span>
+        <h2>나에게 맞는 플랜 고르기</h2>
+        <p>첫 달은 50% 할인 — 언제든 변경·해지 가능해요</p>
       </div>
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">🍽️</div>
-        <h3>한입 크기 커팅</h3>
-        <p>딸기·베리를 먹기 좋은 한입 크기로 자동 커팅, 아이도 어른도 바로 즐길 수 있어요</p>
+      <div class="plans-grid">
+
+        <div class="plan-card" data-reveal>
+          <div class="plan-icon">🍓</div>
+          <div class="plan-name">라이트</div>
+          <div class="plan-tagline">딸기만 간편하게</div>
+          <div class="plan-price">
+            <span class="price-num">9,900</span><span class="price-unit">원 / 월</span>
+          </div>
+          <div class="plan-target">👤 1인 가구 · 딸기 가끔 드시는 분</div>
+          <div class="plan-fruits">🍓</div>
+          <ul class="plan-features">
+            <li class="feat-yes">딸기 전용 (1가지 과일)</li>
+            <li class="feat-yes">기본 세척 + 꼭지 제거</li>
+            <li class="feat-no">다듬기 전 과정 <span class="feat-hint">홈 이상</span></li>
+            <li class="feat-no">AI 손질 품질 보증 <span class="feat-hint">홈 이상</span></li>
+            <li class="feat-no">과일 쉐이크 모드 <span class="feat-hint">패밀리 전용</span></li>
+          </ul>
+          <a href="#footer" class="btn btn-outline">시작하기</a>
+        </div>
+
+        <div class="plan-card plan-best" data-reveal>
+          <div class="plan-badge">인기</div>
+          <div class="plan-icon">🫐</div>
+          <div class="plan-name">홈</div>
+          <div class="plan-tagline">가족을 위한 완전한 손질</div>
+          <div class="plan-price">
+            <span class="price-num">19,900</span><span class="price-unit">원 / 월</span>
+          </div>
+          <p class="plan-social-proof">월 1,200명 구독 중</p>
+          <div class="plan-target">👨‍👩‍👧 2~3인 가족 · 베리 자주 드시는 분</div>
+          <div class="plan-fruits">🍓 🫐</div>
+          <ul class="plan-features">
+            <li class="feat-yes">딸기 + 블루베리 (2가지 과일)</li>
+            <li class="feat-yes">세척 · 다듬기 · 꼭지 제거 전 과정</li>
+            <li class="feat-yes">AI 손질 품질 보증</li>
+            <li class="feat-yes">한입 크기 자동 커팅</li>
+            <li class="feat-no">과일 쉐이크 모드 <span class="feat-hint">패밀리 전용</span></li>
+          </ul>
+          <a href="#footer" class="btn btn-primary">시작하기</a>
+        </div>
+
+        <div class="plan-card" data-reveal>
+          <div class="plan-icon">🍒</div>
+          <div class="plan-name">패밀리</div>
+          <div class="plan-tagline">베리 마니아 가족을 위한 올인원</div>
+          <div class="plan-price">
+            <span class="price-num">34,900</span><span class="price-unit">원 / 월</span>
+          </div>
+          <div class="plan-target">👨‍👩‍👧‍👦 4인 이상 가족 · 다양한 베리 즐기는 분</div>
+          <div class="plan-fruits">🍓 🫐 🫐 🍒</div>
+          <ul class="plan-features">
+            <li class="feat-yes">딸기·블루베리·라즈베리·체리 (4가지)</li>
+            <li class="feat-yes">세척 · 다듬기 · 꼭지 제거 전 과정</li>
+            <li class="feat-yes">AI 손질 품질 보증</li>
+            <li class="feat-yes">우선 처리 예약 (대기 없이 즉시 시작)</li>
+            <li class="feat-yes">과일 쉐이크 모드</li>
+          </ul>
+          <a href="#footer" class="btn btn-primary">시작하기</a>
+        </div>
+
       </div>
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">🍱</div>
-        <h3>먹다 남은 과일 처리</h3>
-        <p>먹다 남긴 과일을 다시 넣으면 깔끔하게 재손질·보관 용기 포장까지 처리해드려요</p>
+      <p class="plans-note">* 모든 플랜 첫 달 50% 할인 적용</p>
+    </section>
+
+    <!-- ===== 로봇 사양 ===== -->
+    <section id="spec">
+      <div class="section-header">
+        <span class="section-tag">베리봇 로봇 사양</span>
+        <h2>어떻게 생겼나요?</h2>
+        <p>주방 조리대 위 컴팩트한 스마트 가전 — 작동 과정이 투명 돔으로 보여요</p>
       </div>
-      <div class="feature-card" data-reveal>
-        <div class="feature-icon">🥤</div>
-        <h3>과일 쉐이크 모드</h3>
-        <p>손질한 베리를 바로 갈아 신선한 쉐이크로 만들어드려요. 패밀리 플랜에서 이용 가능해요</p>
+      <div class="spec-layout">
+        <div class="spec-overview" data-reveal>
+          <div class="spec-overview-item">
+            <span class="spec-overview-label">크기</span>
+            <span class="spec-overview-value">W 30 × D 28 × H 38 cm</span>
+          </div>
+          <div class="spec-overview-item">
+            <span class="spec-overview-label">소재</span>
+            <span class="spec-overview-value">무광 화이트 · 파스텔 유선형 바디</span>
+          </div>
+          <div class="spec-overview-item">
+            <span class="spec-overview-label">투명 돔</span>
+            <span class="spec-overview-value">강화유리 / 투명 폴리카보네이트</span>
+          </div>
+        </div>
+        <div class="spec-table-wrap" data-reveal>
+          <table class="spec-table">
+            <thead>
+              <tr>
+                <th>위치</th>
+                <th>명칭</th>
+                <th>역할</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>상단 입구</td>
+                <td><strong>호퍼 (Hopper)</strong></td>
+                <td>씻지 않은 딸기를 한꺼번에 투입</td>
+              </tr>
+              <tr>
+                <td>중앙부</td>
+                <td><strong>클린 존 (Clean Zone)</strong></td>
+                <td>미세 버블 + 초음파로 잔류 농약 제거 (3단 세척)</td>
+              </tr>
+              <tr>
+                <td>작업대</td>
+                <td><strong>트리밍 데크 (Trimming Deck)</strong></td>
+                <td>AI 카메라로 꼭지 위치 감지 후 소프트 그리퍼로 정밀 제거</td>
+              </tr>
+              <tr>
+                <td>하단 출구</td>
+                <td><strong>서빙 트레이 (Serving Tray)</strong></td>
+                <td>손질 완료된 딸기가 담겨 나오는 접시 거치대</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- ===== 특장점 ===== -->
+    <section id="features">
+      <div class="section-header">
+        <span class="section-tag">왜 베리봇 로봇?</span>
+        <h2>가정용 로봇이 손질하니까 다릅니다</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">🚿</div>
+          <h3>3단 초음파 세척</h3>
+          <p>3단 초음파 세척으로 농약·이물질 99% 제거, 씻지 않고 바로 드실 수 있어요</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">✂️</div>
+          <h3>꼭지 완벽 제거</h3>
+          <p>AI가 꼭지 위치를 감지해 오차 1mm 이내로 깔끔하게 제거해드려요</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">🔍</div>
+          <h3>신선도 자동 식별</h3>
+          <p>AI 카메라가 과일의 숙도·당도·상태를 스캔해 최적의 손질 방식을 자동 설정해요</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">🍽️</div>
+          <h3>한입 크기 커팅</h3>
+          <p>딸기·베리를 먹기 좋은 한입 크기로 자동 커팅, 아이도 어른도 바로 즐길 수 있어요</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">🍱</div>
+          <h3>먹다 남은 과일 처리</h3>
+          <p>먹다 남긴 과일을 다시 넣으면 깔끔하게 재손질·보관 용기 포장까지 처리해드려요</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-icon">🥤</div>
+          <h3>과일 쉐이크 모드</h3>
+          <p>손질한 베리를 바로 갈아 신선한 쉐이크로 만들어드려요. 패밀리 플랜에서 이용 가능해요</p>
+        </div>
+      </div>
+    </section>
 
   </main>
 
