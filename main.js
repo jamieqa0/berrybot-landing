@@ -26,6 +26,13 @@ navLinks.querySelectorAll('a').forEach(a => {
     navToggle.setAttribute('aria-expanded', 'false');
   });
 });
+// Close nav when clicking outside
+document.addEventListener('click', (e) => {
+  if (!navLinks.contains(e.target) && !navToggle.contains(e.target)) {
+    navLinks.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }
+});
 
 // ===== FLOATING CTA =====
 const floatingCta = document.getElementById('floatingCta');

@@ -414,7 +414,7 @@ section { padding: 96px 24px; }
 }
 
 /* ===== SPEC ===== */
-#spec { background: white; }
+#spec { background: #FFF8F0; }
 
 .spec-layout {
   max-width: 960px;
