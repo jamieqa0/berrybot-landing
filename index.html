@@ -5,6 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>베리봇 — 딸기 손질 구독 서비스</title>
+  <meta name="description" content="집에서 베리봇이 세척·꼭지 제거까지 — 딸기 손질 전용 가정용 로봇 구독 서비스. 첫 달 50% 할인, 언제든 해지 가능." />
+  <meta property="og:title" content="베리봇 — 딸기 손질 구독 서비스" />
+  <meta property="og:description" content="베리봇이 세척부터 꼭지 제거까지. 바로 먹을 수 있는 딸기를 손쉽게 즐기세요." />
+  <meta property="og:type" content="website" />
   <link rel="icon" href="https://raw.githubusercontent.com/jamieqa0/berrybot-landing/main/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
   <style>[data-reveal]{opacity:0;transform:translateY(30px)}</style>
@@ -19,12 +23,15 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#comic">베리봇 소개</a></li>
         <li><a href="#plans">구독 플랜</a></li>
+        <li><a href="#spec">로봇 사양</a></li>
         <li><a href="#features">특장점</a></li>
       </ul>
       <a href="#plans" class="btn btn-primary nav-cta">구독 시작하기</a>
-      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">☰</button>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navLinks">☰</button>
     </div>
   </nav>
+
+  <main>
 
   <!-- ===== HERO ===== -->
   <section id="hero">
@@ -126,6 +133,64 @@
     <p class="plans-note">* 모든 플랜 첫 달 50% 할인 적용</p>
   </section>
 
+  <!-- ===== 로봇 사양 ===== -->
+  <section id="spec">
+    <div class="section-header">
+      <span class="section-tag">베리봇 로봇 사양</span>
+      <h2>어떻게 생겼나요?</h2>
+      <p>주방 조리대 위 컴팩트한 스마트 가전 — 작동 과정이 투명 돔으로 보여요</p>
+    </div>
+    <div class="spec-layout">
+      <div class="spec-overview" data-reveal>
+        <div class="spec-overview-item">
+          <span class="spec-overview-label">크기</span>
+          <span class="spec-overview-value">10인용 전기밥솥 수준</span>
+        </div>
+        <div class="spec-overview-item">
+          <span class="spec-overview-label">소재</span>
+          <span class="spec-overview-value">무광 화이트 · 파스텔 유선형 바디</span>
+        </div>
+        <div class="spec-overview-item">
+          <span class="spec-overview-label">투명 돔</span>
+          <span class="spec-overview-value">강화유리 / 투명 폴리카보네이트</span>
+        </div>
+      </div>
+      <div class="spec-table-wrap" data-reveal>
+        <table class="spec-table">
+          <thead>
+            <tr>
+              <th>위치</th>
+              <th>명칭</th>
+              <th>역할</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>상단 입구</td>
+              <td><strong>호퍼 (Hopper)</strong></td>
+              <td>씻지 않은 딸기를 한꺼번에 투입</td>
+            </tr>
+            <tr>
+              <td>중앙부</td>
+              <td><strong>클린 존 (Clean Zone)</strong></td>
+              <td>미세 버블 + 초음파로 잔류 농약 제거 (3단 세척)</td>
+            </tr>
+            <tr>
+              <td>작업대</td>
+              <td><strong>트리밍 데크 (Trimming Deck)</strong></td>
+              <td>AI 카메라로 꼭지 위치 감지 후 소프트 그리퍼로 정밀 제거</td>
+            </tr>
+            <tr>
+              <td>하단 출구</td>
+              <td><strong>서빙 트레이 (Serving Tray)</strong></td>
+              <td>손질 완료된 딸기가 담겨 나오는 접시 거치대</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== 특장점 ===== -->
   <section id="features">
     <div class="section-header">
@@ -165,6 +230,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- ===== FOOTER ===== -->
   <footer id="footer">
